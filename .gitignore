@@ -1,3 +1,4 @@
 # macOS metadata (the exFAT drive writes ._ files next to everything)
 ._*
 .DS_Store
+__pycache__/

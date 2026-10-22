@@ -1,0 +1,204 @@
+{
+ "version": 1,
+ "seed": 7331,
+ "cardCm": [
+  6.35,
+  8.89
+ ],
+ "cornerCm": 0.32,
+ "ring": [
+  "9",
+  "10",
+  "j",
+  "q",
+  "k",
+  "a"
+ ],
+ "cards": [
+  {
+   "id": "9",
+   "rank": "9",
+   "title": "3D Lab",
+   "sub": "NINE OF TOAST",
+   "accent": "#F2B31B",
+   "wear": 0.5,
+   "backFade": 0.055,
+   "curl": {
+    "long": 0.154,
+    "lat": 0.041,
+    "twist": 0.045
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/9-front.webp",
+     "wear": "assets/cards/hi/9-wear.png",
+     "gloss": "assets/cards/hi/9-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/9-front.webp",
+     "wear": "assets/cards/lo/9-wear.png",
+     "gloss": "assets/cards/lo/9-gloss.png"
+    }
+   }
+  },
+  {
+   "id": "10",
+   "rank": "10",
+   "title": "Road Test",
+   "sub": "TEN OF TOAST",
+   "accent": "#FF8A00",
+   "wear": 0.65,
+   "backFade": 0.066,
+   "curl": {
+    "long": 0.184,
+    "lat": 0.051,
+    "twist": 0.046
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/10-front.webp",
+     "wear": "assets/cards/hi/10-wear.png",
+     "gloss": "assets/cards/hi/10-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/10-front.webp",
+     "wear": "assets/cards/lo/10-wear.png",
+     "gloss": "assets/cards/lo/10-gloss.png"
+    }
+   }
+  },
+  {
+   "id": "j",
+   "rank": "J",
+   "title": "X-Ray",
+   "sub": "JACK OF TOAST",
+   "accent": "#5B7CFF",
+   "wear": 0.85,
+   "backFade": 0.08,
+   "curl": {
+    "long": 0.183,
+    "lat": 0.06,
+    "twist": 0.025
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/j-front.webp",
+     "wear": "assets/cards/hi/j-wear.png",
+     "gloss": "assets/cards/hi/j-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/j-front.webp",
+     "wear": "assets/cards/lo/j-wear.png",
+     "gloss": "assets/cards/lo/j-gloss.png"
+    }
+   }
+  },
+  {
+   "id": "q",
+   "rank": "Q",
+   "title": "Viral Loop",
+   "sub": "QUEEN OF TOAST",
+   "accent": "#3FD0BD",
+   "wear": 0.45,
+   "backFade": 0.052,
+   "curl": {
+    "long": 0.146,
+    "lat": 0.039,
+    "twist": 0.036
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/q-front.webp",
+     "wear": "assets/cards/hi/q-wear.png",
+     "gloss": "assets/cards/hi/q-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/q-front.webp",
+     "wear": "assets/cards/lo/q-wear.png",
+     "gloss": "assets/cards/lo/q-gloss.png"
+    }
+   }
+  },
+  {
+   "id": "k",
+   "rank": "K",
+   "title": "AI Studio",
+   "sub": "KING OF TOAST",
+   "accent": "#FF5AD9",
+   "wear": 0.7,
+   "backFade": 0.069,
+   "curl": {
+    "long": 0.179,
+    "lat": 0.049,
+    "twist": 0.031
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/k-front.webp",
+     "wear": "assets/cards/hi/k-wear.png",
+     "gloss": "assets/cards/hi/k-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/k-front.webp",
+     "wear": "assets/cards/lo/k-wear.png",
+     "gloss": "assets/cards/lo/k-gloss.png"
+    }
+   }
+  },
+  {
+   "id": "a",
+   "rank": "A",
+   "title": "Nomada Toast",
+   "sub": "ACE OF TOAST",
+   "accent": "#E33131",
+   "wear": 0.85,
+   "backFade": 0.08,
+   "curl": {
+    "long": 0.182,
+    "lat": 0.045,
+    "twist": 0.02
+   },
+   "dogEar": {
+    "corner": "tr",
+    "sizeCm": 1.1,
+    "liftDeg": 7
+   },
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/a-front.webp",
+     "wear": "assets/cards/hi/a-wear.png",
+     "gloss": "assets/cards/hi/a-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/a-front.webp",
+     "wear": "assets/cards/lo/a-wear.png",
+     "gloss": "assets/cards/lo/a-gloss.png"
+    }
+   }
+  }
+ ],
+ "back": {
+  "hi": "assets/cards/hi/back.webp",
+  "lo": "assets/cards/lo/back.webp"
+ },
+ "dimple": "assets/cards/dimple-normal-256.png",
+ "dimpleTileCm": 0.8,
+ "video9": {
+  "file": "assets/cards/clip-9.mp4",
+  "startSec": 15.5,
+  "endSec": 18.2,
+  "posterSec": 16.55,
+  "posterOffset": 1.05,
+  "windowUV": [
+   0.28394,
+   0.26355,
+   0.71606,
+   0.92092
+  ]
+ }
+}

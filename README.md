@@ -1,4 +1,15 @@
-# atom1-2pro3 — VHS hero, NomadaToast edition
+# atom1-2pro3 — polaroid hero
+
+- `cards/` — the current hero: 80s-style polaroids of Jo Mendes blown onto a dark table by the wind. They flip, bounce and settle while a loading counter runs to 100 %, then the hero settles into its panel ("Your work is good. / Your brand should know that.", JO Mendes). Scroll, drag or use the arrow keys and the endless row of polaroids drifts the way you push it, with a soft film burn where they leave the frame.
+
+```bash
+python3 site/_ntsm/serve.py cards --port 8040
+```
+
+Then open http://localhost:8040 (a plain `http.server` works too, but caches; this one sends no-cache).
+Rebuild the polaroids with `python3 patches/build_polaroids.py` (photos and captions in `CARD_DATA`) and the table with `python3 patches/build_surface.py`. Motion, camera rise and the edge burn are tuned in `cards/js/config.js`.
+
+## Earlier: VHS hero, NomadaToast edition
 
 The arcmarumo.com hero (a CRT TV with a 3D carousel of VHS tapes), mirrored locally and rebranded to NomadaToast: tech, AI and social media growth.
 

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" data-phase="boot" data-ready="0">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JO Mendes</title>
+  <meta name="description" content="Your work is good. Your brand should know that.">
+  <meta name="theme-color" content="#0C0C0D">
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/page.css">
+</head>
+<body>
+  <header class="chrome top">
+    <nav class="nav"><span>Cases</span><span>Services</span><span>About</span></nav>
+    <span class="inquire">Inquire</span>
+  </header>
+  <div class="tv">
+    <div class="screen" id="screen" aria-roledescription="carousel" aria-label="Polaroids">
+      <canvas id="table"></canvas>
+      <div class="caption is-empty" id="caption" aria-live="polite"><b class="rank"></b><span class="title"></span><small class="sub"></small></div>
+    </div>
+
+    <div class="marks" aria-hidden="true">
+      <i class="cross" style="left:22%;top:21%"></i>
+      <i class="cross" style="left:58%;top:76%"></i>
+      <i class="cross" style="left:81%;top:73%"></i>
+      <i class="hair h" style="top:76%;left:58%;right:6%"></i>
+      <i class="hair v" style="left:81%;top:62%;bottom:16%"></i>
+      <i class="arc" style="left:12%;top:20%"></i>
+    </div>
+
+    <span class="aa">aa</span>
+    <div class="lede">
+      <p>Your work is good.</p>
+      <p>Your brand should know that.</p>
+    </div>
+
+    <div class="loading" aria-live="polite">
+      <b class="pct"><span id="pct">0</span>%</b>
+      <p>Strategy-led branding.<br>Design-driven websites.</p>
+    </div>
+    <h1 class="name">JO Mendes</h1>
+    <footer class="chrome bottom">
+      <b class="mark">W.</b>
+      <span class="clock"><span id="clock">00:00</span> (<br>Amsterdam</span>
+      <span class="honors">Honors</span>
+    </footer>
+  </div>
+  <div id="fallback" hidden></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
