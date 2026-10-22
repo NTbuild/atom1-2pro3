@@ -1,0 +1,32 @@
+[
+ {
+  "file": "site/favicon__q_6a07e95189b14176.ico",
+  "from": "patches/build/icons/favicon.ico",
+  "pre_sha256": "257b60c105e13d648f33ad2c3e8c8f3ae6c17a28ea5668a59c5eec6becf157b0",
+  "post_sha256": "db45a289ca83f148ddf8e4198d7b799a0247747477465e9d888ec3266a409e06"
+ },
+ {
+  "file": "site/icon__q_597e0c2e60754391.svg",
+  "from": "patches/build/icons/icon.svg",
+  "pre_sha256": "b1b25bace4cf14d7e0b8130222b2367af838fe3dd34c8ee6a7ed61e2ecb92450",
+  "post_sha256": "8b4db2d281e13d6b016a0ef25673608d4a1a7119f980b75ac343a42c820c5028"
+ },
+ {
+  "file": "site/icon1__q_ab8733923c70f0ce.png",
+  "from": "patches/build/icons/icon1.png",
+  "pre_sha256": "cd1b51ec701b54a7442b0897382599e2785e381b4cd5293987a3c6bf9f0ee782",
+  "post_sha256": "4f956ffa38ea7ec722645922e6c9f337f34850643eda43b12d24d14470dafa63"
+ },
+ {
+  "file": "site/apple-icon__q_1e84c58542855607.png",
+  "from": "patches/build/icons/apple-icon.png",
+  "pre_sha256": "2c7f818bca3b2ec80becbaa05793c9b7752a90dfce37ee1a74c54222028cecbf",
+  "post_sha256": "a2553cdd882b09ee6e94b6e7e90a31e2117c48fd097a00ffdf297001492b8e40"
+ },
+ {
+  "file": "site/og.jpg",
+  "from": "patches/build/og.jpg",
+  "pre_sha256": "cc865fd46a40dc057041401ceae3d0b7982f4de6499a847a6fd3ee49c0ac44b6",
+  "post_sha256": "e1933a2d0ca28f01f3ba6a397cf99a77628b0def549bf197b697980823bea69a"
+ }
+]

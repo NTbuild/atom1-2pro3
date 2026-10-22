@@ -1,0 +1,133 @@
+{
+ "served_by": "python3 site/serve-local.py --port 8038",
+ "browser": "Claude in-app browser pane (800x600)",
+ "probes": [
+  {
+   "after": "P1",
+   "check": "document.title / meta description / .vhs-caption",
+   "result": {
+    "title": "NomadaToast ©'26",
+    "caption": "NOMADA TOAST / TECH, AI AND SOCIAL MEDIA GROWTH, SERVED HOT EVERY WEEK / TECH • AI • SOCIAL GROWTH"
+   }
+  },
+  {
+   "after": "P1",
+   "check": "ArrowRight -> .vhs-caption",
+   "result": "AI STUDIO / HANDS-ON WITH THE NEWEST AI VIDEO, IMAGE AND VOICE TOOLS / AI TOOLS • VIDEO"
+  },
+  {
+   "after": "P2",
+   "check": "logo alt, mailto hrefs, clock vs Intl America/Sao_Paulo",
+   "result": {
+    "alt": "NomadaToast — home",
+    "mailtos": [
+     "mailto:hello@example.com",
+     "mailto:hello@example.com"
+    ],
+    "footer_clock": "10:09",
+    "brt_now": "10:10 (15 s update interval)"
+   },
+   "console_hydration_errors": 0
+  },
+  {
+   "after": "P3",
+   "check": ".vhs-logo img",
+   "result": {
+    "src": "/brand/arc-logo.svg",
+    "complete": true,
+    "natural": [
+     115,
+     30
+    ]
+   }
+  },
+  {
+   "after": "P4",
+   "check": "served bytes for 14 sleeve URLs",
+   "result": "14/14 match installed files, 200 image/jpeg",
+   "evidence": "audit/reports/p4-served-bytes.json"
+  },
+  {
+   "after": "P4",
+   "check": "loader -> usable",
+   "result": "loader element removed, carousel rendered with new sleeves",
+   "evidence": "audit/shots/interactions/loader-done-carousel.jpg"
+  },
+  {
+   "after": "P5",
+   "check": "ArrowLeft -> caption",
+   "result": "NOMADA TOAST caption"
+  },
+  {
+   "after": "P5",
+   "check": "B&W toggle on/off",
+   "result": {
+    "on": "html.bw set, greyscale",
+    "off": "html.bw cleared, colour"
+   },
+   "evidence": [
+    "audit/shots/interactions/bw-on.jpg",
+    "audit/shots/interactions/bw-off.jpg"
+   ]
+  },
+  {
+   "after": "P6",
+   "check": "6 tapes in carousel, Growth Camp gone",
+   "result": "payload slugs: nomada-toast, ai-studio, viral-loop, x-ray, road-test, supporter; neighbours of tape 0 are Supporter and AI Studio",
+   "evidence": "audit/shots/interactions/six-tapes.jpg"
+  },
+  {
+   "after": "P6",
+   "check": "click centre tape (canvas onOpen -> nt:play)",
+   "result": {
+    "url": "/",
+    "src": "/nt/videos/nomada-toast.mp4",
+    "paused": false,
+    "muted": false,
+    "size": [
+     1280,
+     720
+    ],
+    "readyState": 4
+   },
+   "evidence": "audit/shots/interactions/play-nomada-toast.jpg"
+  },
+  {
+   "after": "P6",
+   "check": "Space / ArrowRight / Escape while playing",
+   "result": {
+    "space": "❚❚ PAUSE, paused",
+    "arrowRight": "▶▶ FF, +5 s, carousel caption unchanged",
+    "escape": "overlay removed"
+   }
+  },
+  {
+   "after": "P6",
+   "check": "focus a.vhs-open + Enter (link interception)",
+   "result": {
+    "src": "/nt/videos/ai-studio.mp4",
+    "playing": true,
+    "size": [
+     720,
+     1280
+    ]
+   },
+   "evidence": "audit/shots/interactions/play-ai-studio.jpg"
+  },
+  {
+   "after": "P6",
+   "check": "wheel ×5 while playing, then Eject click",
+   "result": "caption still AI STUDIO (carousel did not move); overlay removed"
+  },
+  {
+   "after": "P6",
+   "check": "click caption title link, then seek to end",
+   "result": "plays /nt/videos/ai-studio.mp4 at url '/'; auto-ejects after end"
+  },
+  {
+   "after": "P6",
+   "check": "server 404s after P6",
+   "result": "only pre-existing /?_rsc, /profile?_rsc, /news-watch?_rsc, telemetry; no /work/*?_rsc prefetches; no /nt/ 404s"
+  }
+ ]
+}

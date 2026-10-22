@@ -1,0 +1,20 @@
+[
+ {
+  "file": "site/brand/arc-logo.svg",
+  "from": "patches/build/logo/arc-logo.svg",
+  "pre_sha256": "0aa72773c4e3d7c06ba5d6dca052c6b828034b27030581b9de16555f23d9e260",
+  "post_sha256": "5f992d78e735465b9deb90e3c39cab859eacf135932f04b22f70bb469f17995a"
+ },
+ {
+  "file": "site/brand/arc-bands.svg",
+  "from": "patches/build/logo/arc-bands.svg",
+  "pre_sha256": "15f18a208a92c7f74dabe2145fa9b42da1903f52ee65cf3de8f612ded3d97aaa",
+  "post_sha256": "2b1e2b7cb7abfe09e07bea879308b6e79531cd3b98ec199724afce98237e31f8"
+ },
+ {
+  "file": "site/about/arc-mark.svg",
+  "from": "patches/build/logo/arc-mark.svg",
+  "pre_sha256": "1acd95cf1c1c4acce3f23a436c554ee65fa48a7ec806eab75d87007b0309b1ee",
+  "post_sha256": "2037333d095eeccb5dcb9d55dbe1011b95aa15777e767b645a85673ed1d6dff9"
+ }
+]

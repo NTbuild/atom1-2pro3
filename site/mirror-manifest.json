@@ -1,0 +1,2624 @@
+{
+  "schema_version": "1.3",
+  "created_at": "2026-10-22T12:51:43Z",
+  "updated_at": "2026-10-22T12:54:41Z",
+  "authorization_contexts": [
+    {
+      "context": "User states they have permission to mirror arcmarumo.com (hero section); cdn.sanity.io project ngr7c3v4 is the site's own CMS image store",
+      "recorded_at": "2026-10-22T12:51:43Z"
+    }
+  ],
+  "authorization_context": "User states they have permission to mirror arcmarumo.com (hero section); cdn.sanity.io project ngr7c3v4 is the site's own CMS image store",
+  "allowed_external_hosts": [
+    "cdn.sanity.io"
+  ],
+  "pages": [
+    {
+      "graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json",
+      "graph_sha256": "0ceecc61f9e6da7f8c20402053300df53e4c6024642973656e026178148ccc68",
+      "requested_url": "https://www.arcmarumo.com/",
+      "final_url": "https://www.arcmarumo.com/",
+      "title": "Arc \u00a9'26",
+      "initial_status": 200,
+      "final_status": 200,
+      "redirects": [],
+      "access": {
+        "state": "ok",
+        "blocked": false,
+        "title": "Arc \u00a9'26",
+        "final_url": "https://www.arcmarumo.com/",
+        "evidence": {
+          "http_status": 200,
+          "url_challenge_markers": [],
+          "title_challenge_markers": [],
+          "body_challenge_markers": [],
+          "selector_markers": [],
+          "url_login_markers": [],
+          "title_login_markers": [],
+          "body_login_markers": [],
+          "visible_password_fields": 0,
+          "title_error_markers": [],
+          "body_error_markers": [],
+          "consent_overlay_coverage": 0,
+          "root_overflow_locked": true
+        }
+      }
+    }
+  ],
+  "capture_graphs": [
+    {
+      "path": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json",
+      "sha256": "0ceecc61f9e6da7f8c20402053300df53e4c6024642973656e026178148ccc68",
+      "schema_version": "1.3",
+      "requested_url": "https://www.arcmarumo.com/",
+      "final_url": "https://www.arcmarumo.com/",
+      "captured_at": "2026-10-22T12:51:03Z",
+      "recorded_at": "2026-10-22T12:51:43Z"
+    }
+  ],
+  "route_map": {
+    "/": {
+      "local_path": "_/index.html",
+      "content_type": "text/html; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/",
+      "sha256": "e0a190c798b11c9e6a5ab5bf0e80266bcbc8a1ee89ad6945e7c87e2e7ad12459"
+    },
+    "/_next/static/immutable/chunks/0350u0vmirmw-.js": {
+      "local_path": "_next/static/immutable/chunks/0350u0vmirmw-.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0350u0vmirmw-.js",
+      "sha256": "e05df4c710745b7bc1806c7b296fa50d317b34f5a7585a8c156adcf0ae56a40a"
+    },
+    "/_next/static/immutable/chunks/07v142o5owpy6.js": {
+      "local_path": "_next/static/immutable/chunks/07v142o5owpy6.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/07v142o5owpy6.js",
+      "sha256": "aba12ba12cd4dbd298e982461bc9ea117651a537c9b32dfd68ce11fb6002127a"
+    },
+    "/_next/static/immutable/chunks/09ouw4cybbr0h.js": {
+      "local_path": "_next/static/immutable/chunks/09ouw4cybbr0h.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/09ouw4cybbr0h.js",
+      "sha256": "2da688d13617833c6e13960fc97fbbe8f1493dbd6c29979e79368478fceebf28"
+    },
+    "/_next/static/immutable/chunks/0c0hxoamwjsbw.js": {
+      "local_path": "_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    "/_next/static/immutable/chunks/0cysmklug28fm.js": {
+      "local_path": "_next/static/immutable/chunks/0cysmklug28fm.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0cysmklug28fm.js",
+      "sha256": "e9806298753756845d1009832a8342dfa9c077bb4fbb9679c1212a162bc7544e"
+    },
+    "/_next/static/immutable/chunks/0fovf4mbrzuxx.js": {
+      "local_path": "_next/static/immutable/chunks/0fovf4mbrzuxx.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0fovf4mbrzuxx.js",
+      "sha256": "ba6017d086e10c99ca960bb5dda4e2f190ae95c8af4c17e3db91abb268b2f739"
+    },
+    "/_next/static/immutable/chunks/0i3qf0zh14s38.js": {
+      "local_path": "_next/static/immutable/chunks/0i3qf0zh14s38.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0i3qf0zh14s38.js",
+      "sha256": "1698357b9c817a01cdcb9202d4dfe92411b2d79148cc825adf22800889cf1612"
+    },
+    "/_next/static/immutable/chunks/0qxtffwpvg0u2.js": {
+      "local_path": "_next/static/immutable/chunks/0qxtffwpvg0u2.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0qxtffwpvg0u2.js",
+      "sha256": "667ddec2096fc90c019b45f658f968d15d9ed1519b252bc7e81cb8419d240b90"
+    },
+    "/_next/static/immutable/chunks/0zc-na89g39-k.js": {
+      "local_path": "_next/static/immutable/chunks/0zc-na89g39-k.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0zc-na89g39-k.js",
+      "sha256": "e7d1e0e0a3ca6acaadfe4016a4a88c24e2bf762e85914815eb7a59d9b3d606de"
+    },
+    "/_next/static/immutable/chunks/134kwktq953r0.js": {
+      "local_path": "_next/static/immutable/chunks/134kwktq953r0.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/134kwktq953r0.js",
+      "sha256": "5a95b6c83637985a683d4562c56c50be3e300a3c5979ae3f805c66b47ebbf68b"
+    },
+    "/_next/static/immutable/chunks/16a9xs3qtz5ns.js": {
+      "local_path": "_next/static/immutable/chunks/16a9xs3qtz5ns.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/16a9xs3qtz5ns.js",
+      "sha256": "3301d709ec98794d2b21240b0395dbda4d0d570edb064eb4fb72d41dedf72aab"
+    },
+    "/_next/static/immutable/chunks/1_b_tm3wqqtaz.js": {
+      "local_path": "_next/static/immutable/chunks/1_b_tm3wqqtaz.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1_b_tm3wqqtaz.js",
+      "sha256": "790321a1373d944565bfa52fac718650d3743a05995501b1c8c881f0024753b9"
+    },
+    "/_next/static/immutable/chunks/1gh2i6gkorm5q.js": {
+      "local_path": "_next/static/immutable/chunks/1gh2i6gkorm5q.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1gh2i6gkorm5q.js",
+      "sha256": "28508f7f5cbd7a2b5c5b7798c3ce2974997ef120886f19ff61de9f40165a291e"
+    },
+    "/_next/static/immutable/chunks/1gvz9m-n0qmop.js": {
+      "local_path": "_next/static/immutable/chunks/1gvz9m-n0qmop.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1gvz9m-n0qmop.js",
+      "sha256": "d2ccd98a7dc4dfb9c97576c17a24e34ee3c4f122df4ec760097f0882d01835a5"
+    },
+    "/_next/static/immutable/chunks/1ocoz51g5g0mk.js": {
+      "local_path": "_next/static/immutable/chunks/1ocoz51g5g0mk.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1ocoz51g5g0mk.js",
+      "sha256": "3257a0aeb4addc67696eb113f55e73bfd9fe4af0c2c05497e8c87f16173c940c"
+    },
+    "/_next/static/immutable/chunks/2-5-dyx-8dsia.js": {
+      "local_path": "_next/static/immutable/chunks/2-5-dyx-8dsia.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/2-5-dyx-8dsia.js",
+      "sha256": "e8fd6bc1f86fb53983b16d68d76a146d3eee242a4ebe252308fb87919c088e57"
+    },
+    "/_next/static/immutable/chunks/24l721ux8dkx7.css": {
+      "local_path": "_next/static/immutable/chunks/24l721ux8dkx7.css",
+      "content_type": "text/css; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/24l721ux8dkx7.css",
+      "sha256": "66e58781a8362315aae63abce2c0913fe58d960724cf16dbadf135cb55ecbaa9"
+    },
+    "/_next/static/immutable/chunks/27fkz_hesr-qz.js": {
+      "local_path": "_next/static/immutable/chunks/27fkz_hesr-qz.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/27fkz_hesr-qz.js",
+      "sha256": "4426f738848ddaade239245e18c38a7dcb1afdd4a54b0c1bfd1f0b35d685391c"
+    },
+    "/_next/static/immutable/chunks/2zssteotfl-i9.js": {
+      "local_path": "_next/static/immutable/chunks/2zssteotfl-i9.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/2zssteotfl-i9.js",
+      "sha256": "c2aa32d8a3584c5bd0e5035c62ce55ad03e20dd04cb83372daf0cbaa9c868aaa"
+    },
+    "/_next/static/immutable/chunks/3249jth5xr7lx.js": {
+      "local_path": "_next/static/immutable/chunks/3249jth5xr7lx.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3249jth5xr7lx.js",
+      "sha256": "b31b746f5889f358b14fb0c402ef1f54709f70aae001bb68b7785c87fdd9a5be"
+    },
+    "/_next/static/immutable/chunks/37n3r0zuw47_4.js": {
+      "local_path": "_next/static/immutable/chunks/37n3r0zuw47_4.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/37n3r0zuw47_4.js",
+      "sha256": "4eca703aa35bc3a0a08d5a59d94cb8373c2bd691337f269be84d3d8e36253b12"
+    },
+    "/_next/static/immutable/chunks/39ylgc66xe1xs.js": {
+      "local_path": "_next/static/immutable/chunks/39ylgc66xe1xs.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/39ylgc66xe1xs.js",
+      "sha256": "d1ce2004b5971676023555fc016ddd8e2dc878ba079bd2d88be2d06c2489eb27"
+    },
+    "/_next/static/immutable/chunks/3i898asfgc_9u.js": {
+      "local_path": "_next/static/immutable/chunks/3i898asfgc_9u.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3i898asfgc_9u.js",
+      "sha256": "f99054d17ff3bb2a016f1017194ad3212371eb07ef47ba9d673f5e57cee9d038"
+    },
+    "/_next/static/immutable/chunks/3nq15eu2ijf2b.js": {
+      "local_path": "_next/static/immutable/chunks/3nq15eu2ijf2b.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3nq15eu2ijf2b.js",
+      "sha256": "88d9cadff1c10bc6a031852a201094e8151efd41d0e55633ef30a3edb88f755d"
+    },
+    "/_next/static/immutable/chunks/3zb5vxwecmax-.js": {
+      "local_path": "_next/static/immutable/chunks/3zb5vxwecmax-.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3zb5vxwecmax-.js",
+      "sha256": "672cae58494912b33e6412f3cf4c3cdae046eee948265023490bfea77594f24e"
+    },
+    "/_next/static/immutable/chunks/turbopack-2nwkajip8w80t.js": {
+      "local_path": "_next/static/immutable/chunks/turbopack-2nwkajip8w80t.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/turbopack-2nwkajip8w80t.js",
+      "sha256": "7bb3e33cf581b1927f7fad161f779471e411f5054a65f31290f701c40f87b398"
+    },
+    "/_next/static/immutable/media/Advercase_Regular-s.36cs10l5284i-.woff2": {
+      "local_path": "_next/static/immutable/media/Advercase_Regular-s.36cs10l5284i-.woff2",
+      "content_type": "font/woff2",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/media/Advercase_Regular-s.36cs10l5284i-.woff2",
+      "sha256": "924439d3c157b9889f928c1230f588c3e2ffc56781bd1155196a7574462f2506"
+    },
+    "/_next/static/immutable/media/NeueBit_Bold-s.p.1o0qymtuv0t4o.woff2": {
+      "local_path": "_next/static/immutable/media/NeueBit_Bold-s.p.1o0qymtuv0t4o.woff2",
+      "content_type": "font/woff2",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/media/NeueBit_Bold-s.p.1o0qymtuv0t4o.woff2",
+      "sha256": "b9e9c566ac5eca62560ab94bfdb452a86ed6681309a4032c08f0aab297515898"
+    },
+    "/_next/static/immutable/media/NeueMontreal_Regular-s.0k_gm19rh09lz.woff2": {
+      "local_path": "_next/static/immutable/media/NeueMontreal_Regular-s.0k_gm19rh09lz.woff2",
+      "content_type": "font/woff2",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/media/NeueMontreal_Regular-s.0k_gm19rh09lz.woff2",
+      "sha256": "3b28441d2ce44509170905e070b0ad07c5b7d3987759743fb4ea2165d76d4493"
+    },
+    "/_next/static/immutable/media/PPNeueMontrealMono_Medium-s.p.1gnh4ljroxkv0.woff2": {
+      "local_path": "_next/static/immutable/media/PPNeueMontrealMono_Medium-s.p.1gnh4ljroxkv0.woff2",
+      "content_type": "font/woff2",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/media/PPNeueMontrealMono_Medium-s.p.1gnh4ljroxkv0.woff2",
+      "sha256": "8b3493c1ea87b2f3a07fb17a935afe7cbcc58005dbffc65f7678e38260a24e9f"
+    },
+    "/about/arc-mark.svg": {
+      "local_path": "about/arc-mark.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/about/arc-mark.svg",
+      "sha256": "1acd95cf1c1c4acce3f23a436c554ee65fa48a7ec806eab75d87007b0309b1ee"
+    },
+    "/about/mpa.svg": {
+      "local_path": "about/mpa.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/about/mpa.svg",
+      "sha256": "97545198f2911929c88a6deecff6d65b0a8e4b48fe9ba90bbe46846e8ad1b14a"
+    },
+    "/about/vhs-logo.svg": {
+      "local_path": "about/vhs-logo.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/about/vhs-logo.svg",
+      "sha256": "639417340a9d7bc865b5db048d2494f69a39979af546b265eb4fb9d4dcab32f7"
+    },
+    "/apple-icon.png?apple-icon.3fk7fxyh80oro.png": {
+      "local_path": "apple-icon__q_1e84c58542855607.png",
+      "content_type": "image/png",
+      "source_url": "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png",
+      "sha256": "2c7f818bca3b2ec80becbaa05793c9b7752a90dfce37ee1a74c54222028cecbf"
+    },
+    "/brand/arc-bands.svg": {
+      "local_path": "brand/arc-bands.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/brand/arc-bands.svg",
+      "sha256": "15f18a208a92c7f74dabe2145fa9b42da1903f52ee65cf3de8f612ded3d97aaa"
+    },
+    "/brand/arc-logo.svg": {
+      "local_path": "brand/arc-logo.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/brand/arc-logo.svg",
+      "sha256": "0aa72773c4e3d7c06ba5d6dca052c6b828034b27030581b9de16555f23d9e260"
+    },
+    "/brand/arrow-next.svg": {
+      "local_path": "brand/arrow-next.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/brand/arrow-next.svg",
+      "sha256": "508457661cd6f4c3999d0c8ae928affcbcc4bfa17c465816bfdb2f9a7386f39c"
+    },
+    "/brand/logo-rule.svg": {
+      "local_path": "brand/logo-rule.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/brand/logo-rule.svg",
+      "sha256": "1f596239bef19da83d6e3783a904633a1e5fc34d0904686a89cb05ce137b0e64"
+    },
+    "/brand/tv-glass-1280.webp": {
+      "local_path": "brand/tv-glass-1280.webp",
+      "content_type": "image/webp",
+      "source_url": "https://www.arcmarumo.com/brand/tv-glass-1280.webp",
+      "sha256": "ff2f5d10ca2b7a6c6b699d9dcf3ffe2ce720789acac52178efc0d0ae168b110d"
+    },
+    "/brand/tv-glass-960.avif": {
+      "local_path": "brand/tv-glass-960.avif",
+      "content_type": "image/avif",
+      "source_url": "https://www.arcmarumo.com/brand/tv-glass-960.avif",
+      "sha256": "c803b6fb5273f695f175fdfd569942c8fb9363b9ef4959fb00cbe3da24a8f026"
+    },
+    "/brand/tv-glass.webp": {
+      "local_path": "brand/tv-glass.webp",
+      "content_type": "image/webp",
+      "source_url": "https://www.arcmarumo.com/brand/tv-glass.webp",
+      "sha256": "6632ced344b8d81ca8ad2d29891de896607dbbca186865643a6dd3ed4fe2c29d"
+    },
+    "/favicon.ico?favicon.2g6m_zl2nfl0r.ico": {
+      "local_path": "favicon__q_6a07e95189b14176.ico",
+      "content_type": "image/vnd.microsoft.icon",
+      "source_url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+      "sha256": "257b60c105e13d648f33ad2c3e8c8f3ae6c17a28ea5668a59c5eec6becf157b0"
+    },
+    "/icon1.png?icon1.0uxe_7gbthhae.png": {
+      "local_path": "icon1__q_ab8733923c70f0ce.png",
+      "content_type": "image/png",
+      "source_url": "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png",
+      "sha256": "cd1b51ec701b54a7442b0897382599e2785e381b4cd5293987a3c6bf9f0ee782"
+    },
+    "/icon.svg?icon.2a7e020547f6u.svg": {
+      "local_path": "icon__q_597e0c2e60754391.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg",
+      "sha256": "b1b25bace4cf14d7e0b8130222b2367af838fe3dd34c8ee6a7ed61e2ecb92450"
+    },
+    "/og.jpg": {
+      "local_path": "og.jpg",
+      "content_type": "image/jpeg",
+      "source_url": "https://www.arcmarumo.com/og.jpg",
+      "sha256": "cc865fd46a40dc057041401ceae3d0b7982f4de6499a847a6fd3ee49c0ac44b6"
+    },
+    "/_external/cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=1200&auto=format",
+      "sha256": "e83893252f175d2ea723c2351b835ad1f28fe286f9e30358992cbe9992d10c15"
+    },
+    "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2F0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=640&auto=format",
+      "sha256": "a82d9dfbf2249c969d81cf42142402949bb011ec2f28fe12146b2165ee9dc18f"
+    },
+    "/_external/cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=1200&auto=format",
+      "sha256": "c4a02ff45d0d1fce3953c6a0113ccc25c5707c8f120c5f16d6e62bb6a3b562e8"
+    },
+    "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2F0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=640&auto=format",
+      "sha256": "2f86a1dab54878b2b6307e1ad2a6d713d4ac43c82a4c31190978c861211992bd"
+    },
+    "/_external/cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=1200&auto=format",
+      "sha256": "454beacd22b60769b8154368101e4fa7cbe1704caa9a1ae35a4f65fc7cf0d3b2"
+    },
+    "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2F2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=640&auto=format",
+      "sha256": "20ff6530726eaf8b17c27a1f1e15b2863ebb4107c43c26fceaa4ca723ea98725"
+    },
+    "/_external/cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=1200&auto=format",
+      "sha256": "7dd961c598a43bb4c70f8f1cd67b6dfdf9cf045633989f9674a3756529ebe581"
+    },
+    "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2F5d872c051b87858247858e962bc7fad82874f136-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=640&auto=format",
+      "sha256": "98be0e6cc6a506fa71554f23f0bb0bccc5eb0d920f8f0112302ecbe860d5176d"
+    },
+    "/_external/cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=1200&auto=format",
+      "sha256": "c772cd46e88d46d875e60b2a4a2fa11859093371b67eb19008d3f1aff2b26360"
+    },
+    "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2Fac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=640&auto=format",
+      "sha256": "c32671ea485d99b9cb84a015a75414fe7cf4f060aacee49777d1cbc256d7dab8"
+    },
+    "/_external/cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=1200&auto=format",
+      "sha256": "bfbcaf35833b2bb965c761b31ea55fa098232a1a10299e2351c01bdafe122a0f"
+    },
+    "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2Fda5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=640&auto=format",
+      "sha256": "829d22e9c0862cf828c4324e079344fee98c6b58a96a8f5e2c522c5e9a5cbb91"
+    },
+    "/_external/cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=1200&auto=format",
+      "sha256": "d1610156486c3b26a94299ff4d8d0838d06295ad88c5ce11acb715519202dda0"
+    },
+    "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2Fde69761688b9f069680c2424a56b4048d88e613b-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=640&auto=format",
+      "sha256": "99bd7249e63774c9845f0bc88a431414552658d38456462432cf83bb8812ebef"
+    },
+    "/favicon.ico": {
+      "local_path": "favicon__q_6a07e95189b14176.ico",
+      "content_type": "image/vnd.microsoft.icon",
+      "source_url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+      "sha256": "257b60c105e13d648f33ad2c3e8c8f3ae6c17a28ea5668a59c5eec6becf157b0"
+    }
+  },
+  "source_url_map": {
+    "https://www.arcmarumo.com/": {
+      "local_path": "_/index.html",
+      "content_type": "text/html; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/",
+      "sha256": "e0a190c798b11c9e6a5ab5bf0e80266bcbc8a1ee89ad6945e7c87e2e7ad12459"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=640&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=640&auto=format",
+      "sha256": "a82d9dfbf2249c969d81cf42142402949bb011ec2f28fe12146b2165ee9dc18f"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=1200&auto=format",
+      "sha256": "e83893252f175d2ea723c2351b835ad1f28fe286f9e30358992cbe9992d10c15"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=640&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=640&auto=format",
+      "sha256": "2f86a1dab54878b2b6307e1ad2a6d713d4ac43c82a4c31190978c861211992bd"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=1200&auto=format",
+      "sha256": "c4a02ff45d0d1fce3953c6a0113ccc25c5707c8f120c5f16d6e62bb6a3b562e8"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=640&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=640&auto=format",
+      "sha256": "20ff6530726eaf8b17c27a1f1e15b2863ebb4107c43c26fceaa4ca723ea98725"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=1200&auto=format",
+      "sha256": "454beacd22b60769b8154368101e4fa7cbe1704caa9a1ae35a4f65fc7cf0d3b2"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=640&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=640&auto=format",
+      "sha256": "98be0e6cc6a506fa71554f23f0bb0bccc5eb0d920f8f0112302ecbe860d5176d"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=1200&auto=format",
+      "sha256": "7dd961c598a43bb4c70f8f1cd67b6dfdf9cf045633989f9674a3756529ebe581"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=640&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=640&auto=format",
+      "sha256": "c32671ea485d99b9cb84a015a75414fe7cf4f060aacee49777d1cbc256d7dab8"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=1200&auto=format",
+      "sha256": "c772cd46e88d46d875e60b2a4a2fa11859093371b67eb19008d3f1aff2b26360"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=640&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=640&auto=format",
+      "sha256": "829d22e9c0862cf828c4324e079344fee98c6b58a96a8f5e2c522c5e9a5cbb91"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=1200&auto=format",
+      "sha256": "bfbcaf35833b2bb965c761b31ea55fa098232a1a10299e2351c01bdafe122a0f"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=640&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150__q_07039c2c44d7cce9.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=640&auto=format",
+      "sha256": "99bd7249e63774c9845f0bc88a431414552658d38456462432cf83bb8812ebef"
+    },
+    "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=1200&auto=format": {
+      "local_path": "_external/cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "content_type": "image/jpeg",
+      "source_url": "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=1200&auto=format",
+      "sha256": "d1610156486c3b26a94299ff4d8d0838d06295ad88c5ce11acb715519202dda0"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/0350u0vmirmw-.js": {
+      "local_path": "_next/static/immutable/chunks/0350u0vmirmw-.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0350u0vmirmw-.js",
+      "sha256": "e05df4c710745b7bc1806c7b296fa50d317b34f5a7585a8c156adcf0ae56a40a"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/07v142o5owpy6.js": {
+      "local_path": "_next/static/immutable/chunks/07v142o5owpy6.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/07v142o5owpy6.js",
+      "sha256": "aba12ba12cd4dbd298e982461bc9ea117651a537c9b32dfd68ce11fb6002127a"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/09ouw4cybbr0h.js": {
+      "local_path": "_next/static/immutable/chunks/09ouw4cybbr0h.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/09ouw4cybbr0h.js",
+      "sha256": "2da688d13617833c6e13960fc97fbbe8f1493dbd6c29979e79368478fceebf28"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js": {
+      "local_path": "_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/0cysmklug28fm.js": {
+      "local_path": "_next/static/immutable/chunks/0cysmklug28fm.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0cysmklug28fm.js",
+      "sha256": "e9806298753756845d1009832a8342dfa9c077bb4fbb9679c1212a162bc7544e"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/0fovf4mbrzuxx.js": {
+      "local_path": "_next/static/immutable/chunks/0fovf4mbrzuxx.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0fovf4mbrzuxx.js",
+      "sha256": "ba6017d086e10c99ca960bb5dda4e2f190ae95c8af4c17e3db91abb268b2f739"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/0i3qf0zh14s38.js": {
+      "local_path": "_next/static/immutable/chunks/0i3qf0zh14s38.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0i3qf0zh14s38.js",
+      "sha256": "1698357b9c817a01cdcb9202d4dfe92411b2d79148cc825adf22800889cf1612"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/0qxtffwpvg0u2.js": {
+      "local_path": "_next/static/immutable/chunks/0qxtffwpvg0u2.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0qxtffwpvg0u2.js",
+      "sha256": "667ddec2096fc90c019b45f658f968d15d9ed1519b252bc7e81cb8419d240b90"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/0zc-na89g39-k.js": {
+      "local_path": "_next/static/immutable/chunks/0zc-na89g39-k.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0zc-na89g39-k.js",
+      "sha256": "e7d1e0e0a3ca6acaadfe4016a4a88c24e2bf762e85914815eb7a59d9b3d606de"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/134kwktq953r0.js": {
+      "local_path": "_next/static/immutable/chunks/134kwktq953r0.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/134kwktq953r0.js",
+      "sha256": "5a95b6c83637985a683d4562c56c50be3e300a3c5979ae3f805c66b47ebbf68b"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/16a9xs3qtz5ns.js": {
+      "local_path": "_next/static/immutable/chunks/16a9xs3qtz5ns.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/16a9xs3qtz5ns.js",
+      "sha256": "3301d709ec98794d2b21240b0395dbda4d0d570edb064eb4fb72d41dedf72aab"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/1_b_tm3wqqtaz.js": {
+      "local_path": "_next/static/immutable/chunks/1_b_tm3wqqtaz.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1_b_tm3wqqtaz.js",
+      "sha256": "790321a1373d944565bfa52fac718650d3743a05995501b1c8c881f0024753b9"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/1gh2i6gkorm5q.js": {
+      "local_path": "_next/static/immutable/chunks/1gh2i6gkorm5q.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1gh2i6gkorm5q.js",
+      "sha256": "28508f7f5cbd7a2b5c5b7798c3ce2974997ef120886f19ff61de9f40165a291e"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/1gvz9m-n0qmop.js": {
+      "local_path": "_next/static/immutable/chunks/1gvz9m-n0qmop.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1gvz9m-n0qmop.js",
+      "sha256": "d2ccd98a7dc4dfb9c97576c17a24e34ee3c4f122df4ec760097f0882d01835a5"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/1ocoz51g5g0mk.js": {
+      "local_path": "_next/static/immutable/chunks/1ocoz51g5g0mk.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1ocoz51g5g0mk.js",
+      "sha256": "3257a0aeb4addc67696eb113f55e73bfd9fe4af0c2c05497e8c87f16173c940c"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/2-5-dyx-8dsia.js": {
+      "local_path": "_next/static/immutable/chunks/2-5-dyx-8dsia.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/2-5-dyx-8dsia.js",
+      "sha256": "e8fd6bc1f86fb53983b16d68d76a146d3eee242a4ebe252308fb87919c088e57"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/24l721ux8dkx7.css": {
+      "local_path": "_next/static/immutable/chunks/24l721ux8dkx7.css",
+      "content_type": "text/css; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/24l721ux8dkx7.css",
+      "sha256": "66e58781a8362315aae63abce2c0913fe58d960724cf16dbadf135cb55ecbaa9"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/27fkz_hesr-qz.js": {
+      "local_path": "_next/static/immutable/chunks/27fkz_hesr-qz.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/27fkz_hesr-qz.js",
+      "sha256": "4426f738848ddaade239245e18c38a7dcb1afdd4a54b0c1bfd1f0b35d685391c"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/2zssteotfl-i9.js": {
+      "local_path": "_next/static/immutable/chunks/2zssteotfl-i9.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/2zssteotfl-i9.js",
+      "sha256": "c2aa32d8a3584c5bd0e5035c62ce55ad03e20dd04cb83372daf0cbaa9c868aaa"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/3249jth5xr7lx.js": {
+      "local_path": "_next/static/immutable/chunks/3249jth5xr7lx.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3249jth5xr7lx.js",
+      "sha256": "b31b746f5889f358b14fb0c402ef1f54709f70aae001bb68b7785c87fdd9a5be"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/37n3r0zuw47_4.js": {
+      "local_path": "_next/static/immutable/chunks/37n3r0zuw47_4.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/37n3r0zuw47_4.js",
+      "sha256": "4eca703aa35bc3a0a08d5a59d94cb8373c2bd691337f269be84d3d8e36253b12"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/39ylgc66xe1xs.js": {
+      "local_path": "_next/static/immutable/chunks/39ylgc66xe1xs.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/39ylgc66xe1xs.js",
+      "sha256": "d1ce2004b5971676023555fc016ddd8e2dc878ba079bd2d88be2d06c2489eb27"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/3i898asfgc_9u.js": {
+      "local_path": "_next/static/immutable/chunks/3i898asfgc_9u.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3i898asfgc_9u.js",
+      "sha256": "f99054d17ff3bb2a016f1017194ad3212371eb07ef47ba9d673f5e57cee9d038"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/3nq15eu2ijf2b.js": {
+      "local_path": "_next/static/immutable/chunks/3nq15eu2ijf2b.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3nq15eu2ijf2b.js",
+      "sha256": "88d9cadff1c10bc6a031852a201094e8151efd41d0e55633ef30a3edb88f755d"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/3zb5vxwecmax-.js": {
+      "local_path": "_next/static/immutable/chunks/3zb5vxwecmax-.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3zb5vxwecmax-.js",
+      "sha256": "672cae58494912b33e6412f3cf4c3cdae046eee948265023490bfea77594f24e"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/chunks/turbopack-2nwkajip8w80t.js": {
+      "local_path": "_next/static/immutable/chunks/turbopack-2nwkajip8w80t.js",
+      "content_type": "application/javascript; charset=utf-8",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/turbopack-2nwkajip8w80t.js",
+      "sha256": "7bb3e33cf581b1927f7fad161f779471e411f5054a65f31290f701c40f87b398"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/media/Advercase_Regular-s.36cs10l5284i-.woff2": {
+      "local_path": "_next/static/immutable/media/Advercase_Regular-s.36cs10l5284i-.woff2",
+      "content_type": "font/woff2",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/media/Advercase_Regular-s.36cs10l5284i-.woff2",
+      "sha256": "924439d3c157b9889f928c1230f588c3e2ffc56781bd1155196a7574462f2506"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/media/NeueBit_Bold-s.p.1o0qymtuv0t4o.woff2": {
+      "local_path": "_next/static/immutable/media/NeueBit_Bold-s.p.1o0qymtuv0t4o.woff2",
+      "content_type": "font/woff2",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/media/NeueBit_Bold-s.p.1o0qymtuv0t4o.woff2",
+      "sha256": "b9e9c566ac5eca62560ab94bfdb452a86ed6681309a4032c08f0aab297515898"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/media/NeueMontreal_Regular-s.0k_gm19rh09lz.woff2": {
+      "local_path": "_next/static/immutable/media/NeueMontreal_Regular-s.0k_gm19rh09lz.woff2",
+      "content_type": "font/woff2",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/media/NeueMontreal_Regular-s.0k_gm19rh09lz.woff2",
+      "sha256": "3b28441d2ce44509170905e070b0ad07c5b7d3987759743fb4ea2165d76d4493"
+    },
+    "https://www.arcmarumo.com/_next/static/immutable/media/PPNeueMontrealMono_Medium-s.p.1gnh4ljroxkv0.woff2": {
+      "local_path": "_next/static/immutable/media/PPNeueMontrealMono_Medium-s.p.1gnh4ljroxkv0.woff2",
+      "content_type": "font/woff2",
+      "source_url": "https://www.arcmarumo.com/_next/static/immutable/media/PPNeueMontrealMono_Medium-s.p.1gnh4ljroxkv0.woff2",
+      "sha256": "8b3493c1ea87b2f3a07fb17a935afe7cbcc58005dbffc65f7678e38260a24e9f"
+    },
+    "https://www.arcmarumo.com/about/arc-mark.svg": {
+      "local_path": "about/arc-mark.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/about/arc-mark.svg",
+      "sha256": "1acd95cf1c1c4acce3f23a436c554ee65fa48a7ec806eab75d87007b0309b1ee"
+    },
+    "https://www.arcmarumo.com/about/mpa.svg": {
+      "local_path": "about/mpa.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/about/mpa.svg",
+      "sha256": "97545198f2911929c88a6deecff6d65b0a8e4b48fe9ba90bbe46846e8ad1b14a"
+    },
+    "https://www.arcmarumo.com/about/vhs-logo.svg": {
+      "local_path": "about/vhs-logo.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/about/vhs-logo.svg",
+      "sha256": "639417340a9d7bc865b5db048d2494f69a39979af546b265eb4fb9d4dcab32f7"
+    },
+    "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png": {
+      "local_path": "apple-icon__q_1e84c58542855607.png",
+      "content_type": "image/png",
+      "source_url": "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png",
+      "sha256": "2c7f818bca3b2ec80becbaa05793c9b7752a90dfce37ee1a74c54222028cecbf"
+    },
+    "https://www.arcmarumo.com/brand/arc-bands.svg": {
+      "local_path": "brand/arc-bands.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/brand/arc-bands.svg",
+      "sha256": "15f18a208a92c7f74dabe2145fa9b42da1903f52ee65cf3de8f612ded3d97aaa"
+    },
+    "https://www.arcmarumo.com/brand/arc-logo.svg": {
+      "local_path": "brand/arc-logo.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/brand/arc-logo.svg",
+      "sha256": "0aa72773c4e3d7c06ba5d6dca052c6b828034b27030581b9de16555f23d9e260"
+    },
+    "https://www.arcmarumo.com/brand/arrow-next.svg": {
+      "local_path": "brand/arrow-next.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/brand/arrow-next.svg",
+      "sha256": "508457661cd6f4c3999d0c8ae928affcbcc4bfa17c465816bfdb2f9a7386f39c"
+    },
+    "https://www.arcmarumo.com/brand/logo-rule.svg": {
+      "local_path": "brand/logo-rule.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/brand/logo-rule.svg",
+      "sha256": "1f596239bef19da83d6e3783a904633a1e5fc34d0904686a89cb05ce137b0e64"
+    },
+    "https://www.arcmarumo.com/brand/tv-glass-1280.webp": {
+      "local_path": "brand/tv-glass-1280.webp",
+      "content_type": "image/webp",
+      "source_url": "https://www.arcmarumo.com/brand/tv-glass-1280.webp",
+      "sha256": "ff2f5d10ca2b7a6c6b699d9dcf3ffe2ce720789acac52178efc0d0ae168b110d"
+    },
+    "https://www.arcmarumo.com/brand/tv-glass-960.avif": {
+      "local_path": "brand/tv-glass-960.avif",
+      "content_type": "image/avif",
+      "source_url": "https://www.arcmarumo.com/brand/tv-glass-960.avif",
+      "sha256": "c803b6fb5273f695f175fdfd569942c8fb9363b9ef4959fb00cbe3da24a8f026"
+    },
+    "https://www.arcmarumo.com/brand/tv-glass.webp": {
+      "local_path": "brand/tv-glass.webp",
+      "content_type": "image/webp",
+      "source_url": "https://www.arcmarumo.com/brand/tv-glass.webp",
+      "sha256": "6632ced344b8d81ca8ad2d29891de896607dbbca186865643a6dd3ed4fe2c29d"
+    },
+    "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico": {
+      "local_path": "favicon__q_6a07e95189b14176.ico",
+      "content_type": "image/vnd.microsoft.icon",
+      "source_url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+      "sha256": "257b60c105e13d648f33ad2c3e8c8f3ae6c17a28ea5668a59c5eec6becf157b0"
+    },
+    "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png": {
+      "local_path": "icon1__q_ab8733923c70f0ce.png",
+      "content_type": "image/png",
+      "source_url": "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png",
+      "sha256": "cd1b51ec701b54a7442b0897382599e2785e381b4cd5293987a3c6bf9f0ee782"
+    },
+    "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg": {
+      "local_path": "icon__q_597e0c2e60754391.svg",
+      "content_type": "image/svg+xml",
+      "source_url": "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg",
+      "sha256": "b1b25bace4cf14d7e0b8130222b2367af838fe3dd34c8ee6a7ed61e2ecb92450"
+    },
+    "https://www.arcmarumo.com/og.jpg": {
+      "local_path": "og.jpg",
+      "content_type": "image/jpeg",
+      "source_url": "https://www.arcmarumo.com/og.jpg",
+      "sha256": "cc865fd46a40dc057041401ceae3d0b7982f4de6499a847a6fd3ee49c0ac44b6"
+    }
+  },
+  "downloaded": [
+    {
+      "url": "https://www.arcmarumo.com/",
+      "normalized_url": "https://www.arcmarumo.com/",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/",
+      "redirects": [],
+      "resource_type": "document",
+      "request_class": "document",
+      "data_type": "html_document",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_/index.html",
+      "bytes": 23116,
+      "sha256": "e0a190c798b11c9e6a5ab5bf0e80266bcbc8a1ee89ad6945e7c87e2e7ad12459",
+      "content_type": "text/html; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=640&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=640&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=640&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "mobile:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150__q_07039c2c44d7cce9.webp",
+      "bytes": 37547,
+      "sha256": "a82d9dfbf2249c969d81cf42142402949bb011ec2f28fe12146b2165ee9dc18f",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:43Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=1200&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=1200&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=1200&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "bytes": 80799,
+      "sha256": "e83893252f175d2ea723c2351b835ad1f28fe286f9e30358992cbe9992d10c15",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:43Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=640&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=640&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=640&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "mobile:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150__q_07039c2c44d7cce9.webp",
+      "bytes": 50125,
+      "sha256": "2f86a1dab54878b2b6307e1ad2a6d713d4ac43c82a4c31190978c861211992bd",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:43Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=1200&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=1200&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=1200&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "bytes": 125863,
+      "sha256": "c4a02ff45d0d1fce3953c6a0113ccc25c5707c8f120c5f16d6e62bb6a3b562e8",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:43Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=640&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=640&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=640&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "mobile:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150__q_07039c2c44d7cce9.webp",
+      "bytes": 107132,
+      "sha256": "20ff6530726eaf8b17c27a1f1e15b2863ebb4107c43c26fceaa4ca723ea98725",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=1200&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=1200&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=1200&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "bytes": 244437,
+      "sha256": "454beacd22b60769b8154368101e4fa7cbe1704caa9a1ae35a4f65fc7cf0d3b2",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=640&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=640&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=640&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "mobile:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150__q_07039c2c44d7cce9.webp",
+      "bytes": 34881,
+      "sha256": "98be0e6cc6a506fa71554f23f0bb0bccc5eb0d920f8f0112302ecbe860d5176d",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=1200&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=1200&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=1200&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "bytes": 76611,
+      "sha256": "7dd961c598a43bb4c70f8f1cd67b6dfdf9cf045633989f9674a3756529ebe581",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=640&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=640&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=640&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "mobile:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150__q_07039c2c44d7cce9.webp",
+      "bytes": 49011,
+      "sha256": "c32671ea485d99b9cb84a015a75414fe7cf4f060aacee49777d1cbc256d7dab8",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=1200&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=1200&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=1200&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "bytes": 115192,
+      "sha256": "c772cd46e88d46d875e60b2a4a2fa11859093371b67eb19008d3f1aff2b26360",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=640&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=640&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=640&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "mobile:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150__q_07039c2c44d7cce9.webp",
+      "bytes": 43335,
+      "sha256": "829d22e9c0862cf828c4324e079344fee98c6b58a96a8f5e2c522c5e9a5cbb91",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=1200&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=1200&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=1200&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "bytes": 99130,
+      "sha256": "bfbcaf35833b2bb965c761b31ea55fa098232a1a10299e2351c01bdafe122a0f",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=640&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=640&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=640&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "mobile:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150__q_07039c2c44d7cce9.webp",
+      "bytes": 62345,
+      "sha256": "99bd7249e63774c9845f0bc88a431414552658d38456462432cf83bb8812ebef",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=1200&auto=format",
+      "normalized_url": "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=1200&auto=format",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=1200&auto=format",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_external/cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150__q_09b6cb73ffa3ccc7.webp",
+      "bytes": 160507,
+      "sha256": "d1610156486c3b26a94299ff4d8d0838d06295ad88c5ce11acb715519202dda0",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0350u0vmirmw-.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0350u0vmirmw-.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0350u0vmirmw-.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:2"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125414Z-94083-1792673654716292000",
+      "path": "_next/static/immutable/chunks/0350u0vmirmw-.js",
+      "bytes": 21456,
+      "sha256": "e05df4c710745b7bc1806c7b296fa50d317b34f5a7585a8c156adcf0ae56a40a",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:54:14Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/07v142o5owpy6.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/07v142o5owpy6.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/07v142o5owpy6.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/07v142o5owpy6.js",
+      "bytes": 204607,
+      "sha256": "aba12ba12cd4dbd298e982461bc9ea117651a537c9b32dfd68ce11fb6002127a",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/09ouw4cybbr0h.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/09ouw4cybbr0h.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/09ouw4cybbr0h.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/09ouw4cybbr0h.js",
+      "bytes": 8254,
+      "sha256": "2da688d13617833c6e13960fc97fbbe8f1493dbd6c29979e79368478fceebf28",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:3"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125414Z-94083-1792673654716292000",
+      "path": "_next/static/immutable/chunks/0c0hxoamwjsbw.js",
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:54:14Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0cysmklug28fm.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0cysmklug28fm.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0cysmklug28fm.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/0cysmklug28fm.js",
+      "bytes": 2196,
+      "sha256": "e9806298753756845d1009832a8342dfa9c077bb4fbb9679c1212a162bc7544e",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0fovf4mbrzuxx.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0fovf4mbrzuxx.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0fovf4mbrzuxx.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/0fovf4mbrzuxx.js",
+      "bytes": 12934,
+      "sha256": "ba6017d086e10c99ca960bb5dda4e2f190ae95c8af4c17e3db91abb268b2f739",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0i3qf0zh14s38.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0i3qf0zh14s38.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0i3qf0zh14s38.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/0i3qf0zh14s38.js",
+      "bytes": 32024,
+      "sha256": "1698357b9c817a01cdcb9202d4dfe92411b2d79148cc825adf22800889cf1612",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0qxtffwpvg0u2.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0qxtffwpvg0u2.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0qxtffwpvg0u2.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:4"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125414Z-94083-1792673654716292000",
+      "path": "_next/static/immutable/chunks/0qxtffwpvg0u2.js",
+      "bytes": 95606,
+      "sha256": "667ddec2096fc90c019b45f658f968d15d9ed1519b252bc7e81cb8419d240b90",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:54:14Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0zc-na89g39-k.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0zc-na89g39-k.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0zc-na89g39-k.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:5"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125414Z-94083-1792673654716292000",
+      "path": "_next/static/immutable/chunks/0zc-na89g39-k.js",
+      "bytes": 4336,
+      "sha256": "e7d1e0e0a3ca6acaadfe4016a4a88c24e2bf762e85914815eb7a59d9b3d606de",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:54:14Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/134kwktq953r0.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/134kwktq953r0.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/134kwktq953r0.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/134kwktq953r0.js",
+      "bytes": 3630,
+      "sha256": "5a95b6c83637985a683d4562c56c50be3e300a3c5979ae3f805c66b47ebbf68b",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/16a9xs3qtz5ns.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/16a9xs3qtz5ns.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/16a9xs3qtz5ns.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:6"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125414Z-94083-1792673654716292000",
+      "path": "_next/static/immutable/chunks/16a9xs3qtz5ns.js",
+      "bytes": 4153,
+      "sha256": "3301d709ec98794d2b21240b0395dbda4d0d570edb064eb4fb72d41dedf72aab",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:54:15Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1_b_tm3wqqtaz.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1_b_tm3wqqtaz.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1_b_tm3wqqtaz.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/1_b_tm3wqqtaz.js",
+      "bytes": 4010,
+      "sha256": "790321a1373d944565bfa52fac718650d3743a05995501b1c8c881f0024753b9",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1gh2i6gkorm5q.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1gh2i6gkorm5q.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1gh2i6gkorm5q.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:7"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125414Z-94083-1792673654716292000",
+      "path": "_next/static/immutable/chunks/1gh2i6gkorm5q.js",
+      "bytes": 28086,
+      "sha256": "28508f7f5cbd7a2b5c5b7798c3ce2974997ef120886f19ff61de9f40165a291e",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:54:14Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1gvz9m-n0qmop.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1gvz9m-n0qmop.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1gvz9m-n0qmop.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/1gvz9m-n0qmop.js",
+      "bytes": 29899,
+      "sha256": "d2ccd98a7dc4dfb9c97576c17a24e34ee3c4f122df4ec760097f0882d01835a5",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1ocoz51g5g0mk.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1ocoz51g5g0mk.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1ocoz51g5g0mk.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:metadata",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/1ocoz51g5g0mk.js",
+      "bytes": 13415,
+      "sha256": "3257a0aeb4addc67696eb113f55e73bfd9fe4af0c2c05497e8c87f16173c940c",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/2-5-dyx-8dsia.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/2-5-dyx-8dsia.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/2-5-dyx-8dsia.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/2-5-dyx-8dsia.js",
+      "bytes": 45762,
+      "sha256": "e8fd6bc1f86fb53983b16d68d76a146d3eee242a4ebe252308fb87919c088e57",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:44Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/24l721ux8dkx7.css",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/24l721ux8dkx7.css",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/24l721ux8dkx7.css",
+      "redirects": [],
+      "resource_type": "stylesheet",
+      "request_class": "static",
+      "data_type": "stylesheet",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/24l721ux8dkx7.css",
+      "bytes": 47449,
+      "sha256": "66e58781a8362315aae63abce2c0913fe58d960724cf16dbadf135cb55ecbaa9",
+      "content_type": "text/css; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/27fkz_hesr-qz.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/27fkz_hesr-qz.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/27fkz_hesr-qz.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/27fkz_hesr-qz.js",
+      "bytes": 23818,
+      "sha256": "4426f738848ddaade239245e18c38a7dcb1afdd4a54b0c1bfd1f0b35d685391c",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/2zssteotfl-i9.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/2zssteotfl-i9.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/2zssteotfl-i9.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/2zssteotfl-i9.js",
+      "bytes": 155902,
+      "sha256": "c2aa32d8a3584c5bd0e5035c62ce55ad03e20dd04cb83372daf0cbaa9c868aaa",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3249jth5xr7lx.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3249jth5xr7lx.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3249jth5xr7lx.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/3249jth5xr7lx.js",
+      "bytes": 25010,
+      "sha256": "b31b746f5889f358b14fb0c402ef1f54709f70aae001bb68b7785c87fdd9a5be",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/37n3r0zuw47_4.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/37n3r0zuw47_4.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/37n3r0zuw47_4.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:8"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125414Z-94083-1792673654716292000",
+      "path": "_next/static/immutable/chunks/37n3r0zuw47_4.js",
+      "bytes": 901829,
+      "sha256": "4eca703aa35bc3a0a08d5a59d94cb8373c2bd691337f269be84d3d8e36253b12",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:54:14Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/39ylgc66xe1xs.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/39ylgc66xe1xs.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/39ylgc66xe1xs.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/39ylgc66xe1xs.js",
+      "bytes": 22551,
+      "sha256": "d1ce2004b5971676023555fc016ddd8e2dc878ba079bd2d88be2d06c2489eb27",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3i898asfgc_9u.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3i898asfgc_9u.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3i898asfgc_9u.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/3i898asfgc_9u.js",
+      "bytes": 20471,
+      "sha256": "f99054d17ff3bb2a016f1017194ad3212371eb07ef47ba9d673f5e57cee9d038",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3nq15eu2ijf2b.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3nq15eu2ijf2b.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3nq15eu2ijf2b.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/3nq15eu2ijf2b.js",
+      "bytes": 425,
+      "sha256": "88d9cadff1c10bc6a031852a201094e8151efd41d0e55633ef30a3edb88f755d",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3zb5vxwecmax-.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3zb5vxwecmax-.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3zb5vxwecmax-.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/3zb5vxwecmax-.js",
+      "bytes": 21877,
+      "sha256": "672cae58494912b33e6412f3cf4c3cdae046eee948265023490bfea77594f24e",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/turbopack-2nwkajip8w80t.js",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/turbopack-2nwkajip8w80t.js",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/chunks/turbopack-2nwkajip8w80t.js",
+      "redirects": [],
+      "resource_type": "script",
+      "request_class": "static",
+      "data_type": "script",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/chunks/turbopack-2nwkajip8w80t.js",
+      "bytes": 9736,
+      "sha256": "7bb3e33cf581b1927f7fad161f779471e411f5054a65f31290f701c40f87b398",
+      "content_type": "application/javascript; charset=utf-8",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/media/Advercase_Regular-s.36cs10l5284i-.woff2",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/media/Advercase_Regular-s.36cs10l5284i-.woff2",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/media/Advercase_Regular-s.36cs10l5284i-.woff2",
+      "redirects": [],
+      "resource_type": "font",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:9"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125414Z-94083-1792673654716292000",
+      "path": "_next/static/immutable/media/Advercase_Regular-s.36cs10l5284i-.woff2",
+      "bytes": 39412,
+      "sha256": "924439d3c157b9889f928c1230f588c3e2ffc56781bd1155196a7574462f2506",
+      "content_type": "font/woff2",
+      "captured_at": "2026-10-22T12:54:14Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/media/NeueBit_Bold-s.p.1o0qymtuv0t4o.woff2",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/media/NeueBit_Bold-s.p.1o0qymtuv0t4o.woff2",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/media/NeueBit_Bold-s.p.1o0qymtuv0t4o.woff2",
+      "redirects": [],
+      "resource_type": "font",
+      "request_class": "static",
+      "data_type": "font",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/media/NeueBit_Bold-s.p.1o0qymtuv0t4o.woff2",
+      "bytes": 62140,
+      "sha256": "b9e9c566ac5eca62560ab94bfdb452a86ed6681309a4032c08f0aab297515898",
+      "content_type": "font/woff2",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/media/NeueMontreal_Regular-s.0k_gm19rh09lz.woff2",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/media/NeueMontreal_Regular-s.0k_gm19rh09lz.woff2",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/media/NeueMontreal_Regular-s.0k_gm19rh09lz.woff2",
+      "redirects": [],
+      "resource_type": "font",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:10"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125414Z-94083-1792673654716292000",
+      "path": "_next/static/immutable/media/NeueMontreal_Regular-s.0k_gm19rh09lz.woff2",
+      "bytes": 23764,
+      "sha256": "3b28441d2ce44509170905e070b0ad07c5b7d3987759743fb4ea2165d76d4493",
+      "content_type": "font/woff2",
+      "captured_at": "2026-10-22T12:54:15Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/media/PPNeueMontrealMono_Medium-s.p.1gnh4ljroxkv0.woff2",
+      "normalized_url": "https://www.arcmarumo.com/_next/static/immutable/media/PPNeueMontrealMono_Medium-s.p.1gnh4ljroxkv0.woff2",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/_next/static/immutable/media/PPNeueMontrealMono_Medium-s.p.1gnh4ljroxkv0.woff2",
+      "redirects": [],
+      "resource_type": "font",
+      "request_class": "static",
+      "data_type": "font",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "_next/static/immutable/media/PPNeueMontrealMono_Medium-s.p.1gnh4ljroxkv0.woff2",
+      "bytes": 83452,
+      "sha256": "8b3493c1ea87b2f3a07fb17a935afe7cbcc58005dbffc65f7678e38260a24e9f",
+      "content_type": "font/woff2",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/about/arc-mark.svg",
+      "normalized_url": "https://www.arcmarumo.com/about/arc-mark.svg",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/about/arc-mark.svg",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:12"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125441Z-94145-1792673681372329000",
+      "path": "about/arc-mark.svg",
+      "bytes": 4817,
+      "sha256": "1acd95cf1c1c4acce3f23a436c554ee65fa48a7ec806eab75d87007b0309b1ee",
+      "content_type": "image/svg+xml",
+      "captured_at": "2026-10-22T12:54:41Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/about/mpa.svg",
+      "normalized_url": "https://www.arcmarumo.com/about/mpa.svg",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/about/mpa.svg",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:14"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125441Z-94145-1792673681372329000",
+      "path": "about/mpa.svg",
+      "bytes": 6112,
+      "sha256": "97545198f2911929c88a6deecff6d65b0a8e4b48fe9ba90bbe46846e8ad1b14a",
+      "content_type": "image/svg+xml",
+      "captured_at": "2026-10-22T12:54:41Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/about/vhs-logo.svg",
+      "normalized_url": "https://www.arcmarumo.com/about/vhs-logo.svg",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/about/vhs-logo.svg",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:13"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125441Z-94145-1792673681372329000",
+      "path": "about/vhs-logo.svg",
+      "bytes": 1646,
+      "sha256": "639417340a9d7bc865b5db048d2494f69a39979af546b265eb4fb9d4dcab32f7",
+      "content_type": "image/svg+xml",
+      "captured_at": "2026-10-22T12:54:41Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png",
+      "normalized_url": "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static-metadata",
+      "data_type": "static",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "apple-icon__q_1e84c58542855607.png",
+      "bytes": 9465,
+      "sha256": "2c7f818bca3b2ec80becbaa05793c9b7752a90dfce37ee1a74c54222028cecbf",
+      "content_type": "image/png",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/brand/arc-bands.svg",
+      "normalized_url": "https://www.arcmarumo.com/brand/arc-bands.svg",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/brand/arc-bands.svg",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "mobile:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "brand/arc-bands.svg",
+      "bytes": 1288,
+      "sha256": "15f18a208a92c7f74dabe2145fa9b42da1903f52ee65cf3de8f612ded3d97aaa",
+      "content_type": "image/svg+xml",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/brand/arc-logo.svg",
+      "normalized_url": "https://www.arcmarumo.com/brand/arc-logo.svg",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/brand/arc-logo.svg",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "brand/arc-logo.svg",
+      "bytes": 4569,
+      "sha256": "0aa72773c4e3d7c06ba5d6dca052c6b828034b27030581b9de16555f23d9e260",
+      "content_type": "image/svg+xml",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/brand/arrow-next.svg",
+      "normalized_url": "https://www.arcmarumo.com/brand/arrow-next.svg",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/brand/arrow-next.svg",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:11"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125414Z-94083-1792673654716292000",
+      "path": "brand/arrow-next.svg",
+      "bytes": 288,
+      "sha256": "508457661cd6f4c3999d0c8ae928affcbcc4bfa17c465816bfdb2f9a7386f39c",
+      "content_type": "image/svg+xml",
+      "captured_at": "2026-10-22T12:54:15Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/brand/logo-rule.svg",
+      "normalized_url": "https://www.arcmarumo.com/brand/logo-rule.svg",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/brand/logo-rule.svg",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "brand/logo-rule.svg",
+      "bytes": 270,
+      "sha256": "1f596239bef19da83d6e3783a904633a1e5fc34d0904686a89cb05ce137b0e64",
+      "content_type": "image/svg+xml",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/brand/tv-glass-1280.webp",
+      "normalized_url": "https://www.arcmarumo.com/brand/tv-glass-1280.webp",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/brand/tv-glass-1280.webp",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "static_asset",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/extra-urls.jsonl:1"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125321Z-93976-1792673601564741000",
+      "path": "brand/tv-glass-1280.webp",
+      "bytes": 103694,
+      "sha256": "ff2f5d10ca2b7a6c6b699d9dcf3ffe2ce720789acac52178efc0d0ae168b110d",
+      "content_type": "image/webp",
+      "captured_at": "2026-10-22T12:53:21Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/brand/tv-glass-960.avif",
+      "normalized_url": "https://www.arcmarumo.com/brand/tv-glass-960.avif",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/brand/tv-glass-960.avif",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "mobile:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "brand/tv-glass-960.avif",
+      "bytes": 23494,
+      "sha256": "c803b6fb5273f695f175fdfd569942c8fb9363b9ef4959fb00cbe3da24a8f026",
+      "content_type": "image/avif",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/brand/tv-glass.webp",
+      "normalized_url": "https://www.arcmarumo.com/brand/tv-glass.webp",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/brand/tv-glass.webp",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static",
+      "data_type": "image",
+      "required": true,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": "desktop:load",
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "brand/tv-glass.webp",
+      "bytes": 238138,
+      "sha256": "6632ced344b8d81ca8ad2d29891de896607dbbca186865643a6dd3ed4fe2c29d",
+      "content_type": "image/webp",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+      "normalized_url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static-metadata",
+      "data_type": "static",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "favicon__q_6a07e95189b14176.ico",
+      "bytes": 2422,
+      "sha256": "257b60c105e13d648f33ad2c3e8c8f3ae6c17a28ea5668a59c5eec6becf157b0",
+      "content_type": "image/vnd.microsoft.icon",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png",
+      "normalized_url": "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static-metadata",
+      "data_type": "static",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "icon1__q_ab8733923c70f0ce.png",
+      "bytes": 5211,
+      "sha256": "cd1b51ec701b54a7442b0897382599e2785e381b4cd5293987a3c6bf9f0ee782",
+      "content_type": "image/png",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg",
+      "normalized_url": "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static-metadata",
+      "data_type": "static",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "icon__q_597e0c2e60754391.svg",
+      "bytes": 819,
+      "sha256": "b1b25bace4cf14d7e0b8130222b2367af838fe3dd34c8ee6a7ed61e2ecb92450",
+      "content_type": "image/svg+xml",
+      "captured_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "url": "https://www.arcmarumo.com/og.jpg",
+      "normalized_url": "https://www.arcmarumo.com/og.jpg",
+      "method": "GET",
+      "status": 200,
+      "final_url": "https://www.arcmarumo.com/og.jpg",
+      "redirects": [],
+      "resource_type": "image",
+      "request_class": "static-metadata",
+      "data_type": "static",
+      "required": false,
+      "source_graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "first_seen": null,
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000",
+      "path": "og.jpg",
+      "bytes": 52021,
+      "sha256": "cc865fd46a40dc057041401ceae3d0b7982f4de6499a847a6fd3ee49c0ac44b6",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-22T12:51:45Z"
+    }
+  ],
+  "probed": [],
+  "failed": [
+    {
+      "url": "https://www.arcmarumo.com/5d18c82ce29be22e/script.js",
+      "normalized_url": "https://www.arcmarumo.com/5d18c82ce29be22e/script.js",
+      "method": "GET",
+      "resource_type": "script",
+      "required": true,
+      "error": "Server ignored Accept-Encoding: identity for https://www.arcmarumo.com/5d18c82ce29be22e/script.js (Content-Encoding: br)",
+      "redirects": [],
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000"
+    },
+    {
+      "url": "https://www.arcmarumo.com/aafe13344bef70fc/script.js",
+      "normalized_url": "https://www.arcmarumo.com/aafe13344bef70fc/script.js",
+      "method": "GET",
+      "resource_type": "script",
+      "required": true,
+      "error": "Server ignored Accept-Encoding: identity for https://www.arcmarumo.com/aafe13344bef70fc/script.js (Content-Encoding: br)",
+      "redirects": [],
+      "attempt_id": "20261022T125143Z-93722-1792673503077579000"
+    },
+    {
+      "url": "https://www.arcmarumo.com/aafe13344bef70fc/script.js",
+      "normalized_url": "https://www.arcmarumo.com/aafe13344bef70fc/script.js",
+      "method": "GET",
+      "resource_type": "script",
+      "required": true,
+      "error": "Server ignored Accept-Encoding: identity for https://www.arcmarumo.com/aafe13344bef70fc/script.js (Content-Encoding: br)",
+      "redirects": [],
+      "attempt_id": "20261022T125321Z-93976-1792673601564741000"
+    },
+    {
+      "url": "https://www.arcmarumo.com/5d18c82ce29be22e/script.js",
+      "normalized_url": "https://www.arcmarumo.com/5d18c82ce29be22e/script.js",
+      "method": "GET",
+      "resource_type": "script",
+      "required": true,
+      "error": "Server ignored Accept-Encoding: identity for https://www.arcmarumo.com/5d18c82ce29be22e/script.js (Content-Encoding: br)",
+      "redirects": [],
+      "attempt_id": "20261022T125321Z-93976-1792673601564741000"
+    },
+    {
+      "url": "https://www.arcmarumo.com/5d18c82ce29be22e/script.js",
+      "normalized_url": "https://www.arcmarumo.com/5d18c82ce29be22e/script.js",
+      "method": "GET",
+      "resource_type": "script",
+      "required": true,
+      "error": "Server ignored Accept-Encoding: identity for https://www.arcmarumo.com/5d18c82ce29be22e/script.js (Content-Encoding: br)",
+      "redirects": [],
+      "attempt_id": "20261022T125414Z-94083-1792673654716292000"
+    },
+    {
+      "url": "https://www.arcmarumo.com/aafe13344bef70fc/script.js",
+      "normalized_url": "https://www.arcmarumo.com/aafe13344bef70fc/script.js",
+      "method": "GET",
+      "resource_type": "script",
+      "required": true,
+      "error": "Server ignored Accept-Encoding: identity for https://www.arcmarumo.com/aafe13344bef70fc/script.js (Content-Encoding: br)",
+      "redirects": [],
+      "attempt_id": "20261022T125414Z-94083-1792673654716292000"
+    },
+    {
+      "url": "https://www.arcmarumo.com/5d18c82ce29be22e/script.js",
+      "normalized_url": "https://www.arcmarumo.com/5d18c82ce29be22e/script.js",
+      "method": "GET",
+      "resource_type": "script",
+      "required": true,
+      "error": "Server ignored Accept-Encoding: identity for https://www.arcmarumo.com/5d18c82ce29be22e/script.js (Content-Encoding: br)",
+      "redirects": [],
+      "attempt_id": "20261022T125441Z-94145-1792673681372329000"
+    },
+    {
+      "url": "https://www.arcmarumo.com/aafe13344bef70fc/script.js",
+      "normalized_url": "https://www.arcmarumo.com/aafe13344bef70fc/script.js",
+      "method": "GET",
+      "resource_type": "script",
+      "required": true,
+      "error": "Server ignored Accept-Encoding: identity for https://www.arcmarumo.com/aafe13344bef70fc/script.js (Content-Encoding: br)",
+      "redirects": [],
+      "attempt_id": "20261022T125441Z-94145-1792673681372329000"
+    }
+  ],
+  "skipped_external": [],
+  "skipped_provider_assets": [],
+  "skipped_other": [
+    {
+      "reason": "capture classification disallows automatic acquisition: unknown_xhr_fetch_is_not_static",
+      "url": "https://www.arcmarumo.com/?_rsc=8nTjltbQWvg6NcbE",
+      "source_graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+    },
+    {
+      "reason": "capture classification disallows automatic acquisition: unknown_xhr_fetch_is_not_static",
+      "url": "https://www.arcmarumo.com/news-watch?_rsc=5CB68i4pnAekjehf",
+      "source_graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+    },
+    {
+      "reason": "capture classification disallows automatic acquisition: unknown_xhr_fetch_is_not_static",
+      "url": "https://www.arcmarumo.com/news-watch?_rsc=_3WyR1AeprQyLPWl",
+      "source_graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+    },
+    {
+      "reason": "capture classification disallows automatic acquisition: personalized_evidence_observed_in_one_or_more_responses",
+      "url": "https://www.arcmarumo.com/profile?_rsc=5CB68i4pnAekjehf",
+      "source_graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+    },
+    {
+      "reason": "capture classification disallows automatic acquisition: personalized_evidence_observed_in_one_or_more_responses",
+      "url": "https://www.arcmarumo.com/profile?_rsc=OaIDnoGERc4CCAQ9",
+      "source_graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+    },
+    {
+      "reason": "capture classification disallows automatic acquisition: unknown_xhr_fetch_is_not_static",
+      "url": "https://www.arcmarumo.com/work/depthfirst?_rsc=5CB68i4pnAekjehf",
+      "source_graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+    },
+    {
+      "reason": "capture classification disallows automatic acquisition: unknown_xhr_fetch_is_not_static",
+      "url": "https://www.arcmarumo.com/work/depthfirst?_rsc=y6pgQWwLckoW4aDt",
+      "source_graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+    }
+  ],
+  "metadata_references": [
+    {
+      "url": "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "kind": "favicon",
+      "source": "link[rel=apple-touch-icon]",
+      "observed": true,
+      "probed": true,
+      "captured": true,
+      "states": [
+        "Observed",
+        "Probed",
+        "Captured"
+      ],
+      "probe": {
+        "method": "HEAD",
+        "metadata_only": true,
+        "status": 200,
+        "content_type": "image/png",
+        "final_url": "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png",
+        "redirect_target": null,
+        "redirect_authorized": null
+      },
+      "passes": [
+        "desktop",
+        "mobile"
+      ],
+      "graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json",
+      "graph_sha256": "0ceecc61f9e6da7f8c20402053300df53e4c6024642973656e026178148ccc68",
+      "captured_path": "apple-icon__q_1e84c58542855607.png",
+      "sha256": "2c7f818bca3b2ec80becbaa05793c9b7752a90dfce37ee1a74c54222028cecbf"
+    },
+    {
+      "url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "kind": "favicon",
+      "source": "link[rel=icon]",
+      "observed": true,
+      "probed": true,
+      "captured": true,
+      "states": [
+        "Observed",
+        "Probed",
+        "Captured"
+      ],
+      "probe": {
+        "method": "HEAD",
+        "metadata_only": true,
+        "status": 200,
+        "content_type": "image/vnd.microsoft.icon",
+        "final_url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+        "redirect_target": null,
+        "redirect_authorized": null
+      },
+      "passes": [
+        "desktop",
+        "mobile"
+      ],
+      "graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json",
+      "graph_sha256": "0ceecc61f9e6da7f8c20402053300df53e4c6024642973656e026178148ccc68",
+      "captured_path": "favicon__q_6a07e95189b14176.ico",
+      "sha256": "257b60c105e13d648f33ad2c3e8c8f3ae6c17a28ea5668a59c5eec6becf157b0"
+    },
+    {
+      "url": "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "kind": "favicon",
+      "source": "link[rel=icon]",
+      "observed": true,
+      "probed": true,
+      "captured": true,
+      "states": [
+        "Observed",
+        "Probed",
+        "Captured"
+      ],
+      "probe": {
+        "method": "HEAD",
+        "metadata_only": true,
+        "status": 200,
+        "content_type": "image/svg+xml",
+        "final_url": "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg",
+        "redirect_target": null,
+        "redirect_authorized": null
+      },
+      "passes": [
+        "desktop",
+        "mobile"
+      ],
+      "graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json",
+      "graph_sha256": "0ceecc61f9e6da7f8c20402053300df53e4c6024642973656e026178148ccc68",
+      "captured_path": "icon__q_597e0c2e60754391.svg",
+      "sha256": "b1b25bace4cf14d7e0b8130222b2367af838fe3dd34c8ee6a7ed61e2ecb92450"
+    },
+    {
+      "url": "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "kind": "favicon",
+      "source": "link[rel=icon]",
+      "observed": true,
+      "probed": true,
+      "captured": true,
+      "states": [
+        "Observed",
+        "Probed",
+        "Captured"
+      ],
+      "probe": {
+        "method": "HEAD",
+        "metadata_only": true,
+        "status": 200,
+        "content_type": "image/png",
+        "final_url": "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png",
+        "redirect_target": null,
+        "redirect_authorized": null
+      },
+      "passes": [
+        "desktop",
+        "mobile"
+      ],
+      "graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json",
+      "graph_sha256": "0ceecc61f9e6da7f8c20402053300df53e4c6024642973656e026178148ccc68",
+      "captured_path": "icon1__q_ab8733923c70f0ce.png",
+      "sha256": "cd1b51ec701b54a7442b0897382599e2785e381b4cd5293987a3c6bf9f0ee782"
+    },
+    {
+      "url": "https://www.arcmarumo.com/og.jpg",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "kind": "open_graph_image",
+      "source": "meta[og:image]",
+      "observed": true,
+      "probed": true,
+      "captured": true,
+      "states": [
+        "Observed",
+        "Probed",
+        "Captured"
+      ],
+      "probe": {
+        "method": "HEAD",
+        "metadata_only": true,
+        "status": 200,
+        "content_type": "image/jpeg",
+        "final_url": "https://www.arcmarumo.com/og.jpg",
+        "redirect_target": null,
+        "redirect_authorized": null
+      },
+      "passes": [
+        "desktop",
+        "mobile"
+      ],
+      "graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json",
+      "graph_sha256": "0ceecc61f9e6da7f8c20402053300df53e4c6024642973656e026178148ccc68",
+      "captured_path": "og.jpg",
+      "sha256": "cc865fd46a40dc057041401ceae3d0b7982f4de6499a847a6fd3ee49c0ac44b6"
+    },
+    {
+      "url": "https://www.arcmarumo.com/og.jpg",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "kind": "twitter_image",
+      "source": "meta[twitter:image]",
+      "observed": true,
+      "probed": true,
+      "captured": true,
+      "states": [
+        "Observed",
+        "Probed",
+        "Captured"
+      ],
+      "probe": {
+        "method": "HEAD",
+        "metadata_only": true,
+        "status": 200,
+        "content_type": "image/jpeg",
+        "final_url": "https://www.arcmarumo.com/og.jpg",
+        "redirect_target": null,
+        "redirect_authorized": null
+      },
+      "passes": [
+        "desktop",
+        "mobile"
+      ],
+      "graph": "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json",
+      "graph_sha256": "0ceecc61f9e6da7f8c20402053300df53e4c6024642973656e026178148ccc68",
+      "captured_path": "og.jpg",
+      "sha256": "cc865fd46a40dc057041401ceae3d0b7982f4de6499a847a6fd3ee49c0ac44b6"
+    }
+  ],
+  "local_modifications": [
+    {
+      "id": "localize-sleeve-urls",
+      "phase": "construction",
+      "actor": "Claude (NT Site Mirror operator)",
+      "file": "_/index.html",
+      "reason": "cdn.sanity.io returns no Access-Control-Allow-Origin for localhost, so the WebGL sleeve textures failed CORS and drew blank. The captured copies already in _external/ are served same-origin instead.",
+      "before": "7 sleeve URLs (\u2026-762x1150.webp?w=1200&auto=format) on https://cdn.sanity.io/images/ngr7c3v4/production/",
+      "after": "same paths and queries under /_external/cdn.sanity.io/images/ngr7c3v4/production/",
+      "pristine_copy": "pristine/_/index.html",
+      "pristine_sha256": "25bd4901bb92f2279f4ee3d5037d546aa308a0bbfbc28de6715a2bca8f0f5670",
+      "patched_sha256": "25bd4901bb92f2279f4ee3d5037d546aa308a0bbfbc28de6715a2bca8f0f5670",
+      "validation": "reports/validation-report.md (sleeves render in local WebGL scene, desktop + mobile)",
+      "at": "2026-10-22T12:56:45Z"
+    },
+    {
+      "id": "route-map-sleeves",
+      "phase": "construction",
+      "actor": "Claude (NT Site Mirror operator)",
+      "file": "mirror-manifest.json#route_map",
+      "reason": "Exact path+query routes for the localized sleeves: desktop w=1200 and the mobile /_next/image?...&w=640 URL the bundle's sized() helper builds at <=700px; plus bare /favicon.ico (origin serves identical bytes, sha256-verified).",
+      "before": "no entries",
+      "after": "15 entries",
+      "targets": [
+        "/_external/cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=1200&auto=format",
+        "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2F0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+        "/_external/cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=1200&auto=format",
+        "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2F0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+        "/_external/cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=1200&auto=format",
+        "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2F2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+        "/_external/cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=1200&auto=format",
+        "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2F5d872c051b87858247858e962bc7fad82874f136-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+        "/_external/cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=1200&auto=format",
+        "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2Fac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+        "/_external/cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=1200&auto=format",
+        "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2Fda5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+        "/_external/cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=1200&auto=format",
+        "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2Fde69761688b9f069680c2424a56b4048d88e613b-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+        "/favicon.ico"
+      ],
+      "validation": "local server log shows route-map hits, no 404s for sleeves",
+      "at": "2026-10-22T12:56:45Z"
+    }
+  ],
+  "construction_provenance": [
+    {
+      "id": "accommodate.py",
+      "phase": "construction",
+      "actor": "Claude (NT Site Mirror operator)",
+      "at": "2026-10-22T12:56:45Z",
+      "script": "tools/accommodate.py",
+      "telemetry_classification": [
+        {
+          "url": "https://www.arcmarumo.com/aafe13344bef70fc/script.js",
+          "class": "telemetry",
+          "what": "Vercel Web Analytics",
+          "action": "not replayed; 404 locally (logs a console notice only)"
+        },
+        {
+          "url": "https://www.arcmarumo.com/5d18c82ce29be22e/script.js",
+          "class": "telemetry",
+          "what": "Vercel Speed Insights",
+          "action": "not replayed; 404 locally (logs a console notice only)"
+        }
+      ]
+    }
+  ],
+  "generated_artifacts": [
+    {
+      "path": "_ntsm/serve.py",
+      "kind": "bundled-local-server",
+      "sha256": "16b6b0dca48905b40b7820864e7516e3d6ac8b73e91ef0b3ae15376d7c3271b9",
+      "bytes": 27337,
+      "phase": "construction",
+      "actor": "Claude (NT Site Mirror operator)",
+      "at": "2026-10-22T12:56:45Z",
+      "note": "written by tools/accommodate.py; the pipeline emits these only on a run with zero required failures (its only failures were Vercel telemetry)."
+    },
+    {
+      "path": "serve-local.py",
+      "kind": "portable-launcher",
+      "sha256": "756305c62dce5aebf5db1f35c880a93892219e45805fae9eb6c48928bbce9dda",
+      "bytes": 352,
+      "phase": "construction",
+      "actor": "Claude (NT Site Mirror operator)",
+      "at": "2026-10-22T12:56:45Z",
+      "note": "written by tools/accommodate.py; the pipeline emits these only on a run with zero required failures (its only failures were Vercel telemetry)."
+    },
+    {
+      "path": "serve-contract.json",
+      "kind": "serve-contract",
+      "sha256": "9085c0cc5b7d2e0ab0a47de4cfdf0bdc96bd99d101b38cde229a1e56edda6a88",
+      "bytes": 429,
+      "phase": "construction",
+      "actor": "Claude (NT Site Mirror operator)",
+      "at": "2026-10-22T12:56:45Z",
+      "note": "written by tools/accommodate.py; the pipeline emits these only on a run with zero required failures (its only failures were Vercel telemetry)."
+    }
+  ],
+  "attempts": [
+    {
+      "id": "20261022T125143Z-93722-1792673503077579000",
+      "started_at": "2026-10-22T12:51:43Z",
+      "graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "capture_graph_sha256": [
+        "0ceecc61f9e6da7f8c20402053300df53e4c6024642973656e026178148ccc68"
+      ],
+      "resume": false,
+      "downloaded": 46,
+      "reused": 0,
+      "probed": 0,
+      "failed": 2,
+      "required_failures": 2,
+      "integrity_errors": 0,
+      "status": "failed_required",
+      "finished_at": "2026-10-22T12:51:45Z"
+    },
+    {
+      "id": "20261022T125321Z-93976-1792673601564741000",
+      "started_at": "2026-10-22T12:53:21Z",
+      "graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "capture_graph_sha256": [
+        "0ceecc61f9e6da7f8c20402053300df53e4c6024642973656e026178148ccc68"
+      ],
+      "resume": true,
+      "downloaded": 1,
+      "reused": 46,
+      "probed": 0,
+      "failed": 2,
+      "required_failures": 2,
+      "integrity_errors": 0,
+      "status": "failed_required",
+      "finished_at": "2026-10-22T12:53:21Z"
+    },
+    {
+      "id": "20261022T125414Z-94083-1792673654716292000",
+      "started_at": "2026-10-22T12:54:14Z",
+      "graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "capture_graph_sha256": [
+        "0ceecc61f9e6da7f8c20402053300df53e4c6024642973656e026178148ccc68"
+      ],
+      "resume": true,
+      "downloaded": 10,
+      "reused": 47,
+      "probed": 0,
+      "failed": 2,
+      "required_failures": 2,
+      "integrity_errors": 0,
+      "status": "failed_required",
+      "finished_at": "2026-10-22T12:54:15Z"
+    },
+    {
+      "id": "20261022T125441Z-94145-1792673681372329000",
+      "started_at": "2026-10-22T12:54:41Z",
+      "graphs": [
+        "/Volumes/SSD/Atoms 1:2 - Alex/Project 3/reports/home.asset-graph.json"
+      ],
+      "capture_graph_sha256": [
+        "0ceecc61f9e6da7f8c20402053300df53e4c6024642973656e026178148ccc68"
+      ],
+      "resume": true,
+      "downloaded": 3,
+      "reused": 57,
+      "probed": 0,
+      "failed": 2,
+      "required_failures": 2,
+      "integrity_errors": 0,
+      "status": "failed_required",
+      "finished_at": "2026-10-22T12:54:41Z"
+    }
+  ],
+  "page": "https://www.arcmarumo.com/",
+  "result": "failed_required",
+  "blocked_by_challenge": false,
+  "summary": {
+    "downloaded_total": 60,
+    "probed_total": 0,
+    "failed_history_total": 8,
+    "skipped_external_total": 0,
+    "skipped_provider_assets_total": 0,
+    "skipped_other_total": 7,
+    "metadata_references_total": 6,
+    "current_attempt": {
+      "downloaded": 3,
+      "reused": 57,
+      "probed": 0,
+      "failed": 2,
+      "required_failures": 2,
+      "integrity_errors": 0
+    }
+  }
+}

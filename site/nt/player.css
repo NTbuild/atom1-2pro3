@@ -1,0 +1,141 @@
+/* NomadaToast tape player: the tape's video on the CRT screen (see player.js). */
+.nt-vcr {
+  position: absolute;
+  inset: 0;
+  z-index: 45; /* over the 3D canvas (30) and cursor caption (40); the glass (60) stays on top */
+  overflow: hidden;
+  background: #050505;
+  color: var(--ink, #ece9e1);
+  font-family: var(--font-bit), var(--font-mono), monospace;
+  text-transform: uppercase;
+  transform: scale(0.6, 0.004);
+  filter: brightness(6);
+  opacity: 0;
+  cursor: pointer;
+}
+.nt-vcr.is-on {
+  animation: nt-crt-on 0.46s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+.nt-vcr.is-off {
+  animation: nt-crt-off 0.36s cubic-bezier(0.6, 0, 0.8, 0.4) forwards;
+}
+@keyframes nt-crt-on {
+  0% { transform: scale(0.6, 0.004); filter: brightness(6); opacity: 1; }
+  45% { transform: scale(1, 0.006); filter: brightness(4); opacity: 1; }
+  100% { transform: none; filter: none; opacity: 1; }
+}
+@keyframes nt-crt-off {
+  0% { transform: none; filter: none; opacity: 1; }
+  55% { transform: scale(1, 0.006); filter: brightness(4); opacity: 1; }
+  100% { transform: scale(0, 0.004); filter: brightness(8); opacity: 0; }
+}
+
+.nt-vcr-bg {
+  position: absolute;
+  inset: -60px;
+  background: center / cover no-repeat;
+  filter: blur(36px) brightness(0.42) saturate(1.25);
+}
+.nt-vcr-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: transparent;
+}
+.nt-vcr-lines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(to bottom, rgba(0, 0, 0, 0.26) 0 1px, transparent 1px 3px),
+    radial-gradient(ellipse at center, transparent 55%, rgba(0, 0, 0, 0.55) 100%);
+  mix-blend-mode: multiply;
+}
+.nt-vcr-track {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -20%;
+  height: 14%;
+  pointer-events: none;
+  opacity: 0;
+  background:
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.5) 0 2px, transparent 2px 7px, rgba(255, 255, 255, 0.25) 7px 8px, transparent 8px 13px),
+    linear-gradient(transparent, rgba(255, 255, 255, 0.22) 40%, rgba(255, 255, 255, 0.3) 60%, transparent);
+  mix-blend-mode: screen;
+  filter: blur(0.6px);
+}
+.nt-vcr-track.is-on {
+  animation: nt-track 0.7s linear;
+}
+@keyframes nt-track {
+  0% { top: -20%; opacity: 1; }
+  100% { top: 110%; opacity: 0.6; }
+}
+
+.nt-vcr-osd {
+  position: absolute;
+  inset: max(14px, 4.2cqh) max(14px, 3.4cqw);
+  pointer-events: none;
+  font-size: max(16px, 3.1cqh);
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 6px rgba(236, 233, 225, 0.45), 2px 0 rgba(227, 49, 49, 0.35), -2px 0 rgba(63, 208, 189, 0.3);
+}
+.nt-vcr-osd > * {
+  position: absolute;
+}
+.nt-osd-mode { top: 0; left: 0; }
+.nt-osd-count { top: 0; right: 0; }
+.nt-osd-title { bottom: 0; left: 0; display: grid; gap: 0.35em; }
+.nt-osd-title b { font-weight: inherit; }
+.nt-osd-title i { font-style: normal; font-size: 0.6em; opacity: 0.7; letter-spacing: 0.08em; }
+.nt-osd-eject {
+  bottom: 0;
+  right: 0;
+  pointer-events: auto;
+  font: inherit;
+  color: inherit;
+  text-transform: inherit;
+  text-shadow: inherit;
+  letter-spacing: inherit;
+  background: none;
+  border: 2px solid currentColor;
+  padding: 0.3em 0.5em 0.2em;
+  cursor: pointer;
+}
+.nt-osd-eject:hover,
+.nt-osd-eject:focus-visible {
+  background: var(--ink, #ece9e1);
+  color: #050505;
+  text-shadow: none;
+  outline: none;
+}
+.nt-osd-hint {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.55em;
+  opacity: 0;
+  white-space: nowrap;
+  animation: nt-hint 4.5s ease forwards 0.5s;
+}
+@keyframes nt-hint {
+  0%, 80% { opacity: 0.75; }
+  100% { opacity: 0; }
+}
+.nt-vcr.is-muted .nt-osd-count::after {
+  content: " · MUTE";
+}
+
+@media (max-width: 700px) {
+  .nt-osd-hint { display: none; }
+  .nt-vcr-osd { font-size: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nt-vcr, .nt-vcr.is-on { animation: none; transform: none; filter: none; opacity: 1; }
+  .nt-vcr.is-off { animation: none; opacity: 0; }
+  .nt-vcr-track.is-on { animation: none; }
+}

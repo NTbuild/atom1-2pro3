@@ -1,0 +1,100 @@
+[
+ {
+  "url": "/_external/cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=1200&auto=format",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "a0e6b06582c5ad8cbc1cdc8be6146278fa1f170ba2ec157dd13d7783f1e62eb7",
+  "matches_installed": true
+ },
+ {
+  "url": "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2F0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "8962b2d4b242d59b5d98b45533bd2a04249f2bf3ce25b3b6979e1cb16d2cbbbe",
+  "matches_installed": true
+ },
+ {
+  "url": "/_external/cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=1200&auto=format",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "c7b20a1afc5f9c05134b16f1a8b301a8b0a87ec98c66fdea31df1146e57c91f7",
+  "matches_installed": true
+ },
+ {
+  "url": "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2F0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "71013ab63f2587f35ccd9f570c6090ba2c668be4be4ce00f2c9f33c4dcc2c952",
+  "matches_installed": true
+ },
+ {
+  "url": "/_external/cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=1200&auto=format",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "3ef600d1b1571356adca819dffa72157569a0c4eb0ce46c0f6e94653c88605e6",
+  "matches_installed": true
+ },
+ {
+  "url": "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2F2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "d80ca1aaea71c89b1dc25cafd07b7d0af106cd3776061d52e9b3c0914d6ddaef",
+  "matches_installed": true
+ },
+ {
+  "url": "/_external/cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=1200&auto=format",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "fe2bfb762b880d9dc420d7095ef9ace0caa2659d1b1633bf267c9b446b72f388",
+  "matches_installed": true
+ },
+ {
+  "url": "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2Fac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "a8aa1caf66f7b49ce4af2d87cc27eb2ea0cf1adf2d507abeba0e314033012585",
+  "matches_installed": true
+ },
+ {
+  "url": "/_external/cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=1200&auto=format",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "27abf191460d794527b9738d0f3944c3a72fe4edd5afac2ae88806bf93feb63e",
+  "matches_installed": true
+ },
+ {
+  "url": "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2Fde69761688b9f069680c2424a56b4048d88e613b-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "bc68335272f528599fa135732977d329b67354ecf83efbcc643b40c85216a823",
+  "matches_installed": true
+ },
+ {
+  "url": "/_external/cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=1200&auto=format",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "d97e65a0fd1f33e244b38f75e2686c77aff83da3dbaa011db6fd2c86484d14b0",
+  "matches_installed": true
+ },
+ {
+  "url": "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2Fda5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "9d12851a946b8dbf8b5d148bc7679ad600abd89e48c85db2f205ba6d5d23ef27",
+  "matches_installed": true
+ },
+ {
+  "url": "/_external/cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=1200&auto=format",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "f2cded6b9d4147562dda3cd4a3a369b59ed7255f4a5bc0ab69cf584f58d9b95f",
+  "matches_installed": true
+ },
+ {
+  "url": "/_next/image?url=%2F_external%2Fcdn.sanity.io%2Fimages%2Fngr7c3v4%2Fproduction%2F5d872c051b87858247858e962bc7fad82874f136-762x1150.webp%3Fw%3D1200%26auto%3Dformat&w=640&q=75",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "sha256": "0a7a3dbc6fd1c259a2585c463c59fe32f783283088ce5a302dd7dc19bb7e2073",
+  "matches_installed": true
+ }
+]

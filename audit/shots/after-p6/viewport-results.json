@@ -1,0 +1,1811 @@
+{
+  "allowed_navigation_origins": [
+    "http://localhost:8038"
+  ],
+  "allowed_telemetry_urls": [],
+  "generated_at": "2026-10-22T13:30:16Z",
+  "requested_urls": [
+    "http://localhost:8038/"
+  ],
+  "requested_viewports": [
+    "desktop",
+    "tablet",
+    "mobile"
+  ],
+  "results": [
+    {
+      "access": {
+        "blocked": false,
+        "evidence": {
+          "body_challenge_markers": [],
+          "body_error_markers": [],
+          "body_login_markers": [],
+          "consent_overlay_coverage": 0,
+          "http_status": 200,
+          "root_overflow_locked": true,
+          "selector_markers": [],
+          "title_challenge_markers": [],
+          "title_error_markers": [],
+          "title_login_markers": [],
+          "url_challenge_markers": [],
+          "url_login_markers": [],
+          "visible_password_fields": 0
+        },
+        "final_url": "http://localhost:8038/",
+        "state": "ok",
+        "title": "NomadaToast \u00a9'26"
+      },
+      "allowed_exceptions": [],
+      "capture_complete": true,
+      "capture_mode": "viewport_only",
+      "console_errors": [
+        {
+          "context": "local",
+          "location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          },
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "context": "local",
+          "location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          },
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "context": "local",
+          "location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf"
+          },
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "url": "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "context": "local",
+          "location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+          },
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "context": "local",
+          "location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+          },
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "context": "local",
+      "correlated_console_errors": [
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "network_resource_type": "fetch",
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "network_resource_type": "fetch",
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "network_resource_type": "fetch",
+          "url": "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "network_resource_type": "script",
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "network_resource_type": "script",
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "document_origins": [
+        "http://localhost:8038"
+      ],
+      "failure_reason": "required_runtime_failures_observed",
+      "final_access": {
+        "blocked": false,
+        "evidence": {
+          "body_challenge_markers": [],
+          "body_error_markers": [],
+          "body_login_markers": [],
+          "consent_overlay_coverage": 0,
+          "http_status": 200,
+          "root_overflow_locked": true,
+          "selector_markers": [],
+          "title_challenge_markers": [],
+          "title_error_markers": [],
+          "title_login_markers": [],
+          "url_challenge_markers": [],
+          "url_login_markers": [],
+          "visible_password_fields": 0
+        },
+        "final_url": "http://localhost:8038/",
+        "state": "ok",
+        "title": "NomadaToast \u00a9'26"
+      },
+      "final_url": "http://localhost:8038/",
+      "finished_at": "2026-10-22T13:30:24Z",
+      "http_errors": [
+        {
+          "context": "local",
+          "method": "GET",
+          "resource_type": "fetch",
+          "status": 404,
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "context": "local",
+          "method": "GET",
+          "resource_type": "fetch",
+          "status": 404,
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "context": "local",
+          "method": "GET",
+          "resource_type": "fetch",
+          "status": 404,
+          "url": "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "context": "local",
+          "method": "GET",
+          "resource_type": "script",
+          "status": 404,
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "context": "local",
+          "method": "GET",
+          "resource_type": "script",
+          "status": 404,
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "initial_response_url": "http://localhost:8038/",
+      "initial_status": 200,
+      "navigation_responses": [
+        {
+          "status": 200,
+          "url": "http://localhost:8038/"
+        }
+      ],
+      "observed_failures": [
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "api_data",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          ],
+          "request_class": "personalized_data",
+          "request_classification_reason": "personalized_or_api_response",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          ],
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "unknown_xhr_fetch",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          ],
+          "request_class": "data_api",
+          "request_classification_reason": "unknown_xhr_fetch_is_not_static",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          ],
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "unknown_xhr_fetch",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf"
+          ],
+          "request_class": "data_api",
+          "request_classification_reason": "unknown_xhr_fetch_is_not_static",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf"
+          ],
+          "url": "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "script",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/aafe13344bef70fc/script.js",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/aafe13344bef70fc/script.js",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/aafe13344bef70fc/script.js"
+          ],
+          "request_class": "static",
+          "request_classification_reason": "classified_static_get_head",
+          "request_failure": "net::ERR_ABORTED",
+          "required": true,
+          "resource_type": "script",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/aafe13344bef70fc/script.js"
+          ],
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "script",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/5d18c82ce29be22e/script.js",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/5d18c82ce29be22e/script.js",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/5d18c82ce29be22e/script.js"
+          ],
+          "request_class": "static",
+          "request_classification_reason": "classified_static_get_head",
+          "request_failure": "net::ERR_ABORTED",
+          "required": true,
+          "resource_type": "script",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/5d18c82ce29be22e/script.js"
+          ],
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "page_errors": [],
+      "post_scroll_access": {
+        "blocked": false,
+        "evidence": {
+          "body_challenge_markers": [],
+          "body_error_markers": [],
+          "body_login_markers": [],
+          "consent_overlay_coverage": 0,
+          "http_status": 200,
+          "root_overflow_locked": true,
+          "selector_markers": [],
+          "title_challenge_markers": [],
+          "title_error_markers": [],
+          "title_login_markers": [],
+          "url_challenge_markers": [],
+          "url_login_markers": [],
+          "visible_password_fields": 0
+        },
+        "final_url": "http://localhost:8038/",
+        "state": "ok",
+        "title": "NomadaToast \u00a9'26"
+      },
+      "redirects": [],
+      "request_failures": [
+        {
+          "failure": "net::ERR_ABORTED",
+          "method": "GET",
+          "resource_type": "script",
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "failure": "net::ERR_ABORTED",
+          "method": "GET",
+          "resource_type": "script",
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "requested_url": "http://localhost:8038/",
+      "requested_url_redacted": false,
+      "required": true,
+      "required_failures": [
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "api_data",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          ],
+          "request_class": "personalized_data",
+          "request_classification_reason": "personalized_or_api_response",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          ],
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "unknown_xhr_fetch",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          ],
+          "request_class": "data_api",
+          "request_classification_reason": "unknown_xhr_fetch_is_not_static",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          ],
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "unknown_xhr_fetch",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf"
+          ],
+          "request_class": "data_api",
+          "request_classification_reason": "unknown_xhr_fetch_is_not_static",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf"
+          ],
+          "url": "http://localhost:8038/news-watch?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "script",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/aafe13344bef70fc/script.js",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/aafe13344bef70fc/script.js",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/aafe13344bef70fc/script.js"
+          ],
+          "request_class": "static",
+          "request_classification_reason": "classified_static_get_head",
+          "request_failure": "net::ERR_ABORTED",
+          "required": true,
+          "resource_type": "script",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/aafe13344bef70fc/script.js"
+          ],
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "script",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/5d18c82ce29be22e/script.js",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/5d18c82ce29be22e/script.js",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/5d18c82ce29be22e/script.js"
+          ],
+          "request_class": "static",
+          "request_classification_reason": "classified_static_get_head",
+          "request_failure": "net::ERR_ABORTED",
+          "required": true,
+          "resource_type": "script",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/5d18c82ce29be22e/script.js"
+          ],
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "required_reason": "declared_local_viewport_cell",
+      "response_url": "http://localhost:8038/",
+      "screenshot": "audit/shots/after-p6/localhost-8038__575e28c51e__desktop__sw-allow__viewport-only.png",
+      "scroll": {
+        "mechanism": "wheel_virtual_scroll",
+        "observations": {},
+        "profile": {
+          "innerHeight": 900,
+          "internalContainer": null,
+          "rootOverflowHidden": true,
+          "scrollHeight": 900,
+          "virtualSignals": [
+            "root_overflow_hidden_without_native_range"
+          ],
+          "windowRange": 0,
+          "windowScrollY": 0
+        },
+        "returned_to_start": false,
+        "steps_completed": 10,
+        "steps_requested": 10,
+        "warnings": [
+          "Wheel events were exercised, but virtual-scroll coverage and return to the initial state cannot be proven from document position alone."
+        ]
+      },
+      "sensitive_query_keys": [],
+      "service_worker": {
+        "api_available": true,
+        "cache_names": [],
+        "controller": null,
+        "errors": [],
+        "precache_resources": [],
+        "precache_truncated": false,
+        "registrations": []
+      },
+      "service_worker_after_scroll": {
+        "api_available": true,
+        "cache_names": [],
+        "controller": null,
+        "errors": [],
+        "precache_resources": [],
+        "precache_truncated": false,
+        "registrations": []
+      },
+      "service_worker_control_probe": {
+        "reloaded": false,
+        "state": {
+          "api_available": true,
+          "cache_names": [],
+          "controller": null,
+          "errors": [],
+          "precache_resources": [],
+          "precache_truncated": false,
+          "registrations": []
+        }
+      },
+      "service_worker_mode": "allow",
+      "settle": {
+        "elapsed_ms": 1019,
+        "errors": [],
+        "final_sample": {
+          "domNodes": 164,
+          "fontStatus": "loaded",
+          "pendingImages": 0,
+          "readyState": "complete",
+          "resourceCount": 30,
+          "scrollHeight": 900
+        },
+        "max_ms": 12000,
+        "required_stable_samples": 3,
+        "sample_ms": 250,
+        "samples": 4,
+        "stable": true,
+        "strategy": "domcontentloaded_plus_bounded_stability",
+        "timed_out": false
+      },
+      "started_at": "2026-10-22T13:30:16Z",
+      "status": 200,
+      "success": false,
+      "title": "NomadaToast \u00a9'26",
+      "unauthorized_redirects": [],
+      "viewport": {
+        "height": 900,
+        "width": 1440
+      },
+      "viewport_name": "desktop",
+      "warnings": [
+        "required runtime failures make this matrix cell incomplete"
+      ]
+    },
+    {
+      "access": {
+        "blocked": false,
+        "evidence": {
+          "body_challenge_markers": [],
+          "body_error_markers": [],
+          "body_login_markers": [],
+          "consent_overlay_coverage": 0,
+          "http_status": 200,
+          "root_overflow_locked": true,
+          "selector_markers": [],
+          "title_challenge_markers": [],
+          "title_error_markers": [],
+          "title_login_markers": [],
+          "url_challenge_markers": [],
+          "url_login_markers": [],
+          "visible_password_fields": 0
+        },
+        "final_url": "http://localhost:8038/",
+        "state": "ok",
+        "title": "NomadaToast \u00a9'26"
+      },
+      "allowed_exceptions": [],
+      "capture_complete": true,
+      "capture_mode": "viewport_only",
+      "console_errors": [
+        {
+          "context": "local",
+          "location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          },
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "context": "local",
+          "location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          },
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "context": "local",
+          "location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+          },
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "context": "local",
+          "location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+          },
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "context": "local",
+      "correlated_console_errors": [
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "network_resource_type": "fetch",
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "network_resource_type": "fetch",
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "network_resource_type": "script",
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "network_resource_type": "script",
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "document_origins": [
+        "http://localhost:8038"
+      ],
+      "failure_reason": "required_runtime_failures_observed",
+      "final_access": {
+        "blocked": false,
+        "evidence": {
+          "body_challenge_markers": [],
+          "body_error_markers": [],
+          "body_login_markers": [],
+          "consent_overlay_coverage": 0,
+          "http_status": 200,
+          "root_overflow_locked": true,
+          "selector_markers": [],
+          "title_challenge_markers": [],
+          "title_error_markers": [],
+          "title_login_markers": [],
+          "url_challenge_markers": [],
+          "url_login_markers": [],
+          "visible_password_fields": 0
+        },
+        "final_url": "http://localhost:8038/",
+        "state": "ok",
+        "title": "NomadaToast \u00a9'26"
+      },
+      "final_url": "http://localhost:8038/",
+      "finished_at": "2026-10-22T13:30:31Z",
+      "http_errors": [
+        {
+          "context": "local",
+          "method": "GET",
+          "resource_type": "fetch",
+          "status": 404,
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "context": "local",
+          "method": "GET",
+          "resource_type": "fetch",
+          "status": 404,
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "context": "local",
+          "method": "GET",
+          "resource_type": "script",
+          "status": 404,
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "context": "local",
+          "method": "GET",
+          "resource_type": "script",
+          "status": 404,
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "initial_response_url": "http://localhost:8038/",
+      "initial_status": 200,
+      "navigation_responses": [
+        {
+          "status": 200,
+          "url": "http://localhost:8038/"
+        }
+      ],
+      "observed_failures": [
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "api_data",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          ],
+          "request_class": "personalized_data",
+          "request_classification_reason": "personalized_or_api_response",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          ],
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "unknown_xhr_fetch",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          ],
+          "request_class": "data_api",
+          "request_classification_reason": "unknown_xhr_fetch_is_not_static",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          ],
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "script",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/aafe13344bef70fc/script.js",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/aafe13344bef70fc/script.js",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/aafe13344bef70fc/script.js"
+          ],
+          "request_class": "static",
+          "request_classification_reason": "classified_static_get_head",
+          "request_failure": "net::ERR_ABORTED",
+          "required": true,
+          "resource_type": "script",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/aafe13344bef70fc/script.js"
+          ],
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "script",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/5d18c82ce29be22e/script.js",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/5d18c82ce29be22e/script.js",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/5d18c82ce29be22e/script.js"
+          ],
+          "request_class": "static",
+          "request_classification_reason": "classified_static_get_head",
+          "request_failure": "net::ERR_ABORTED",
+          "required": true,
+          "resource_type": "script",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/5d18c82ce29be22e/script.js"
+          ],
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "page_errors": [],
+      "post_scroll_access": {
+        "blocked": false,
+        "evidence": {
+          "body_challenge_markers": [],
+          "body_error_markers": [],
+          "body_login_markers": [],
+          "consent_overlay_coverage": 0,
+          "http_status": 200,
+          "root_overflow_locked": true,
+          "selector_markers": [],
+          "title_challenge_markers": [],
+          "title_error_markers": [],
+          "title_login_markers": [],
+          "url_challenge_markers": [],
+          "url_login_markers": [],
+          "visible_password_fields": 0
+        },
+        "final_url": "http://localhost:8038/",
+        "state": "ok",
+        "title": "NomadaToast \u00a9'26"
+      },
+      "redirects": [],
+      "request_failures": [
+        {
+          "failure": "net::ERR_ABORTED",
+          "method": "GET",
+          "resource_type": "script",
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "failure": "net::ERR_ABORTED",
+          "method": "GET",
+          "resource_type": "script",
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "requested_url": "http://localhost:8038/",
+      "requested_url_redacted": false,
+      "required": true,
+      "required_failures": [
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "api_data",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          ],
+          "request_class": "personalized_data",
+          "request_classification_reason": "personalized_or_api_response",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          ],
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "unknown_xhr_fetch",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          ],
+          "request_class": "data_api",
+          "request_classification_reason": "unknown_xhr_fetch_is_not_static",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          ],
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "script",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/aafe13344bef70fc/script.js",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/aafe13344bef70fc/script.js",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/aafe13344bef70fc/script.js"
+          ],
+          "request_class": "static",
+          "request_classification_reason": "classified_static_get_head",
+          "request_failure": "net::ERR_ABORTED",
+          "required": true,
+          "resource_type": "script",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/aafe13344bef70fc/script.js"
+          ],
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "script",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/5d18c82ce29be22e/script.js",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/5d18c82ce29be22e/script.js",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/5d18c82ce29be22e/script.js"
+          ],
+          "request_class": "static",
+          "request_classification_reason": "classified_static_get_head",
+          "request_failure": "net::ERR_ABORTED",
+          "required": true,
+          "resource_type": "script",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/5d18c82ce29be22e/script.js"
+          ],
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "required_reason": "declared_local_viewport_cell",
+      "response_url": "http://localhost:8038/",
+      "screenshot": "audit/shots/after-p6/localhost-8038__575e28c51e__tablet__sw-allow__viewport-only.png",
+      "scroll": {
+        "mechanism": "wheel_virtual_scroll",
+        "observations": {},
+        "profile": {
+          "innerHeight": 1024,
+          "internalContainer": null,
+          "rootOverflowHidden": true,
+          "scrollHeight": 1024,
+          "virtualSignals": [
+            "root_overflow_hidden_without_native_range"
+          ],
+          "windowRange": 0,
+          "windowScrollY": 0
+        },
+        "returned_to_start": false,
+        "steps_completed": 10,
+        "steps_requested": 10,
+        "warnings": [
+          "Wheel events were exercised, but virtual-scroll coverage and return to the initial state cannot be proven from document position alone."
+        ]
+      },
+      "sensitive_query_keys": [],
+      "service_worker": {
+        "api_available": true,
+        "cache_names": [],
+        "controller": null,
+        "errors": [],
+        "precache_resources": [],
+        "precache_truncated": false,
+        "registrations": []
+      },
+      "service_worker_after_scroll": {
+        "api_available": true,
+        "cache_names": [],
+        "controller": null,
+        "errors": [],
+        "precache_resources": [],
+        "precache_truncated": false,
+        "registrations": []
+      },
+      "service_worker_control_probe": {
+        "reloaded": false,
+        "state": {
+          "api_available": true,
+          "cache_names": [],
+          "controller": null,
+          "errors": [],
+          "precache_resources": [],
+          "precache_truncated": false,
+          "registrations": []
+        }
+      },
+      "service_worker_mode": "allow",
+      "settle": {
+        "elapsed_ms": 1027,
+        "errors": [],
+        "final_sample": {
+          "domNodes": 164,
+          "fontStatus": "loaded",
+          "pendingImages": 0,
+          "readyState": "complete",
+          "resourceCount": 30,
+          "scrollHeight": 1024
+        },
+        "max_ms": 12000,
+        "required_stable_samples": 3,
+        "sample_ms": 250,
+        "samples": 4,
+        "stable": true,
+        "strategy": "domcontentloaded_plus_bounded_stability",
+        "timed_out": false
+      },
+      "started_at": "2026-10-22T13:30:24Z",
+      "status": 200,
+      "success": false,
+      "title": "NomadaToast \u00a9'26",
+      "unauthorized_redirects": [],
+      "viewport": {
+        "height": 1024,
+        "width": 768
+      },
+      "viewport_name": "tablet",
+      "warnings": [
+        "required runtime failures make this matrix cell incomplete"
+      ]
+    },
+    {
+      "access": {
+        "blocked": false,
+        "evidence": {
+          "body_challenge_markers": [],
+          "body_error_markers": [],
+          "body_login_markers": [],
+          "consent_overlay_coverage": 0,
+          "http_status": 200,
+          "root_overflow_locked": true,
+          "selector_markers": [],
+          "title_challenge_markers": [],
+          "title_error_markers": [],
+          "title_login_markers": [],
+          "url_challenge_markers": [],
+          "url_login_markers": [],
+          "visible_password_fields": 0
+        },
+        "final_url": "http://localhost:8038/",
+        "state": "ok",
+        "title": "NomadaToast \u00a9'26"
+      },
+      "allowed_exceptions": [],
+      "capture_complete": true,
+      "capture_mode": "viewport_only",
+      "console_errors": [
+        {
+          "context": "local",
+          "location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          },
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "context": "local",
+          "location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          },
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "context": "local",
+          "location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+          },
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "context": "local",
+          "location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+          },
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "context": "local",
+      "correlated_console_errors": [
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "network_resource_type": "fetch",
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "network_resource_type": "fetch",
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "network_resource_type": "script",
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "network_resource_type": "script",
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "document_origins": [
+        "http://localhost:8038"
+      ],
+      "failure_reason": "required_runtime_failures_observed",
+      "final_access": {
+        "blocked": false,
+        "evidence": {
+          "body_challenge_markers": [],
+          "body_error_markers": [],
+          "body_login_markers": [],
+          "consent_overlay_coverage": 0,
+          "http_status": 200,
+          "root_overflow_locked": true,
+          "selector_markers": [],
+          "title_challenge_markers": [],
+          "title_error_markers": [],
+          "title_login_markers": [],
+          "url_challenge_markers": [],
+          "url_login_markers": [],
+          "visible_password_fields": 0
+        },
+        "final_url": "http://localhost:8038/",
+        "state": "ok",
+        "title": "NomadaToast \u00a9'26"
+      },
+      "final_url": "http://localhost:8038/",
+      "finished_at": "2026-10-22T13:30:38Z",
+      "http_errors": [
+        {
+          "context": "local",
+          "method": "GET",
+          "resource_type": "fetch",
+          "status": 404,
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "context": "local",
+          "method": "GET",
+          "resource_type": "fetch",
+          "status": 404,
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "context": "local",
+          "method": "GET",
+          "resource_type": "script",
+          "status": 404,
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "context": "local",
+          "method": "GET",
+          "resource_type": "script",
+          "status": 404,
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "initial_response_url": "http://localhost:8038/",
+      "initial_status": 200,
+      "navigation_responses": [
+        {
+          "status": 200,
+          "url": "http://localhost:8038/"
+        }
+      ],
+      "observed_failures": [
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "api_data",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          ],
+          "request_class": "personalized_data",
+          "request_classification_reason": "personalized_or_api_response",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          ],
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "unknown_xhr_fetch",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          ],
+          "request_class": "data_api",
+          "request_classification_reason": "unknown_xhr_fetch_is_not_static",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          ],
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "script",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/aafe13344bef70fc/script.js",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/aafe13344bef70fc/script.js",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/aafe13344bef70fc/script.js"
+          ],
+          "request_class": "static",
+          "request_classification_reason": "classified_static_get_head",
+          "request_failure": "net::ERR_ABORTED",
+          "required": true,
+          "resource_type": "script",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/aafe13344bef70fc/script.js"
+          ],
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "script",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/5d18c82ce29be22e/script.js",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/5d18c82ce29be22e/script.js",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/5d18c82ce29be22e/script.js"
+          ],
+          "request_class": "static",
+          "request_classification_reason": "classified_static_get_head",
+          "request_failure": "net::ERR_ABORTED",
+          "required": true,
+          "resource_type": "script",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/5d18c82ce29be22e/script.js"
+          ],
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "page_errors": [],
+      "post_scroll_access": {
+        "blocked": false,
+        "evidence": {
+          "body_challenge_markers": [],
+          "body_error_markers": [],
+          "body_login_markers": [],
+          "consent_overlay_coverage": 0,
+          "http_status": 200,
+          "root_overflow_locked": true,
+          "selector_markers": [],
+          "title_challenge_markers": [],
+          "title_error_markers": [],
+          "title_login_markers": [],
+          "url_challenge_markers": [],
+          "url_login_markers": [],
+          "visible_password_fields": 0
+        },
+        "final_url": "http://localhost:8038/",
+        "state": "ok",
+        "title": "NomadaToast \u00a9'26"
+      },
+      "redirects": [],
+      "request_failures": [
+        {
+          "failure": "net::ERR_ABORTED",
+          "method": "GET",
+          "resource_type": "script",
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "failure": "net::ERR_ABORTED",
+          "method": "GET",
+          "resource_type": "script",
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "requested_url": "http://localhost:8038/",
+      "requested_url_redacted": false,
+      "required": true,
+      "required_failures": [
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "api_data",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          ],
+          "request_class": "personalized_data",
+          "request_classification_reason": "personalized_or_api_response",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+          ],
+          "url": "http://localhost:8038/profile?_rsc=5CB68i4pnAekjehf"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "unknown_xhr_fetch",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          ],
+          "request_class": "data_api",
+          "request_classification_reason": "unknown_xhr_fetch_is_not_static",
+          "request_failure": null,
+          "required": true,
+          "resource_type": "fetch",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+          ],
+          "url": "http://localhost:8038/?_rsc=8nTjltbQWvg6NcbE"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "script",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/aafe13344bef70fc/script.js",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/aafe13344bef70fc/script.js",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/aafe13344bef70fc/script.js"
+          ],
+          "request_class": "static",
+          "request_classification_reason": "classified_static_get_head",
+          "request_failure": "net::ERR_ABORTED",
+          "required": true,
+          "resource_type": "script",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/aafe13344bef70fc/script.js"
+          ],
+          "url": "http://localhost:8038/aafe13344bef70fc/script.js"
+        },
+        {
+          "allowed_exception": false,
+          "classification": "required_same_origin_http_error",
+          "console_location": {
+            "column_number": 0,
+            "line_number": 0,
+            "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+          },
+          "console_message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+          "context": "local",
+          "data_type": "script",
+          "event_type": "network",
+          "exception_reason": null,
+          "final_request_url": "http://localhost:8038/5d18c82ce29be22e/script.js",
+          "http_status": 404,
+          "http_status_history": [
+            404
+          ],
+          "initial_request_url": "http://localhost:8038/5d18c82ce29be22e/script.js",
+          "method": "GET",
+          "request_chain_urls": [
+            "http://localhost:8038/5d18c82ce29be22e/script.js"
+          ],
+          "request_class": "static",
+          "request_classification_reason": "classified_static_get_head",
+          "request_failure": "net::ERR_ABORTED",
+          "required": true,
+          "resource_type": "script",
+          "same_origin": true,
+          "same_origin_basis_urls": [
+            "http://localhost:8038/5d18c82ce29be22e/script.js"
+          ],
+          "url": "http://localhost:8038/5d18c82ce29be22e/script.js"
+        }
+      ],
+      "required_reason": "declared_local_viewport_cell",
+      "response_url": "http://localhost:8038/",
+      "screenshot": "audit/shots/after-p6/localhost-8038__575e28c51e__mobile__sw-allow__viewport-only.png",
+      "scroll": {
+        "mechanism": "wheel_virtual_scroll",
+        "observations": {},
+        "profile": {
+          "innerHeight": 844,
+          "internalContainer": null,
+          "rootOverflowHidden": true,
+          "scrollHeight": 844,
+          "virtualSignals": [
+            "root_overflow_hidden_without_native_range"
+          ],
+          "windowRange": 0,
+          "windowScrollY": 0
+        },
+        "returned_to_start": false,
+        "steps_completed": 10,
+        "steps_requested": 10,
+        "warnings": [
+          "Wheel events were exercised, but virtual-scroll coverage and return to the initial state cannot be proven from document position alone."
+        ]
+      },
+      "sensitive_query_keys": [],
+      "service_worker": {
+        "api_available": true,
+        "cache_names": [],
+        "controller": null,
+        "errors": [],
+        "precache_resources": [],
+        "precache_truncated": false,
+        "registrations": []
+      },
+      "service_worker_after_scroll": {
+        "api_available": true,
+        "cache_names": [],
+        "controller": null,
+        "errors": [],
+        "precache_resources": [],
+        "precache_truncated": false,
+        "registrations": []
+      },
+      "service_worker_control_probe": {
+        "reloaded": false,
+        "state": {
+          "api_available": true,
+          "cache_names": [],
+          "controller": null,
+          "errors": [],
+          "precache_resources": [],
+          "precache_truncated": false,
+          "registrations": []
+        }
+      },
+      "service_worker_mode": "allow",
+      "settle": {
+        "elapsed_ms": 1029,
+        "errors": [],
+        "final_sample": {
+          "domNodes": 164,
+          "fontStatus": "loaded",
+          "pendingImages": 0,
+          "readyState": "complete",
+          "resourceCount": 30,
+          "scrollHeight": 844
+        },
+        "max_ms": 12000,
+        "required_stable_samples": 3,
+        "sample_ms": 250,
+        "samples": 4,
+        "stable": true,
+        "strategy": "domcontentloaded_plus_bounded_stability",
+        "timed_out": false
+      },
+      "started_at": "2026-10-22T13:30:31Z",
+      "status": 200,
+      "success": false,
+      "title": "NomadaToast \u00a9'26",
+      "unauthorized_redirects": [],
+      "viewport": {
+        "height": 844,
+        "width": 390
+      },
+      "viewport_name": "mobile",
+      "warnings": [
+        "required runtime failures make this matrix cell incomplete"
+      ]
+    }
+  ],
+  "schema_version": "1.3",
+  "service_worker_policy": "auto",
+  "settle_policy": {
+    "max_settle_ms": 12000,
+    "navigation": "domcontentloaded",
+    "networkidle_used": false
+  },
+  "source_baseline_exceptions": [],
+  "source_local_pair": null,
+  "summary": {
+    "complete_matrix": false,
+    "expected": 3,
+    "failed": 3,
+    "passed": 0,
+    "produced": 3,
+    "source_evidence_produced": 0
+  },
+  "url_contexts": [
+    {
+      "context": "local",
+      "required": true,
+      "url": "http://localhost:8038/"
+    }
+  ]
+}

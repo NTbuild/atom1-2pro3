@@ -1,0 +1,23 @@
+<svg width="67" height="30" viewBox="0 0 67 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- The logo's three bands alone (arc-logo.svg without the wordmark): the logo on phones. -->
+<path d="M8.71613 0H66.4933L63.2942 9.24723H5.76871L8.71613 0Z" fill="url(#paint0_linear_0_5)"/>
+<path d="M5.77179 9.96598H63.549L60.3499 19.2132H2.82437L5.77179 9.96598Z" fill="url(#paint1_linear_0_5)"/>
+<path d="M2.94741 20.0648H60.7246L57.5255 29.312H0L2.94741 20.0648Z" fill="url(#paint2_linear_0_5)"/>
+<defs>
+<linearGradient id="paint0_linear_0_5" x1="3.26704e-05" y1="24.6884" x2="57.2221" y2="24.6884" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0094BA"/>
+<stop offset="0.5" stop-color="#FCE71C"/>
+<stop offset="1" stop-color="#FA6425"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_5" x1="3.26704e-05" y1="24.6884" x2="57.2221" y2="24.6884" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0094BA"/>
+<stop offset="0.5" stop-color="#FCE71C"/>
+<stop offset="1" stop-color="#FA6425"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_5" x1="3.26704e-05" y1="24.6884" x2="57.2221" y2="24.6884" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0094BA"/>
+<stop offset="0.5" stop-color="#FCE71C"/>
+<stop offset="1" stop-color="#FA6425"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- The logo's three rainbow bands (public/brand/arc-logo.svg) on the screen's dark. -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="57.2221" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0094BA"/><stop offset="0.5" stop-color="#FCE71C"/><stop offset="1" stop-color="#FA6425"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="#111"/>
+  <g transform="translate(3.000 10.269) scale(0.39102)">
+    <path d="M8.71613 0H66.4933L63.2942 9.24723H5.76871L8.71613 0Z" fill="url(#g)"/>
+    <path d="M5.77179 9.96598H63.549L60.3499 19.2132H2.82437L5.77179 9.96598Z" fill="url(#g)"/>
+    <path d="M2.94741 20.0648H60.7246L57.5255 29.312H0L2.94741 20.0648Z" fill="url(#g)"/>
+  </g>
+</svg>

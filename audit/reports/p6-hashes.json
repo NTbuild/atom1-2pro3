@@ -1,0 +1,14 @@
+[
+ {
+  "patch": "P6",
+  "file": "site/_/index.html",
+  "pre_sha256": "e8b8eaa2e398ff36ef53a2cdd5c424291d9fd11c0b5be4966d2ad4a893cedcb3",
+  "post_sha256": "668fc821b1f0a38a6df1f4e212019824a19aa6bbd132d9a481ab97bf58d5d5a9"
+ },
+ {
+  "patch": "P6",
+  "file": "site/_next/static/immutable/chunks/1gvz9m-n0qmop.js",
+  "pre_sha256": "ad82553be170ead344bb2cf729036067a9d8e9e49aad209ca4d023009f414b48",
+  "post_sha256": "4cb3e6c96adca3d26cc2d7b4bf8923d262a31a4ce1b2392343da5d222d190391"
+ }
+]

@@ -1,0 +1,2822 @@
+{
+  "schema_version": "1.3",
+  "capture_tool_version": "1.3",
+  "page": "https://www.arcmarumo.com/",
+  "requested_page": "https://www.arcmarumo.com/",
+  "canonical_origin": "https://www.arcmarumo.com",
+  "navigation": {
+    "requested_url": "https://www.arcmarumo.com/",
+    "initial_url": "https://www.arcmarumo.com/",
+    "initial_status": 200,
+    "final_url": "https://www.arcmarumo.com/",
+    "final_status": 200,
+    "redirects": [],
+    "navigation_events": [
+      {
+        "url": "https://www.arcmarumo.com/",
+        "status": 200,
+        "phase": "desktop:load",
+        "kind": "initial"
+      }
+    ],
+    "navigation_error": null,
+    "unauthorized_redirects": [],
+    "title": "Arc \u00a9'26",
+    "access": {
+      "state": "ok",
+      "blocked": false,
+      "title": "Arc \u00a9'26",
+      "final_url": "https://www.arcmarumo.com/",
+      "evidence": {
+        "http_status": 200,
+        "url_challenge_markers": [],
+        "title_challenge_markers": [],
+        "body_challenge_markers": [],
+        "selector_markers": [],
+        "url_login_markers": [],
+        "title_login_markers": [],
+        "body_login_markers": [],
+        "visible_password_fields": 0,
+        "title_error_markers": [],
+        "body_error_markers": [],
+        "consent_overlay_coverage": 0,
+        "root_overflow_locked": true
+      }
+    }
+  },
+  "access_result": "ok",
+  "blocked_by_challenge": false,
+  "allowed_navigation_origins": [
+    "https://www.arcmarumo.com"
+  ],
+  "capture_started_at": "2026-10-22T12:50:34Z",
+  "captured_at": "2026-10-22T12:51:03Z",
+  "capture_passes": [
+    {
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "fresh_isolated_context": true,
+      "service_worker_mode": "allow",
+      "navigation": {
+        "requested_url": "https://www.arcmarumo.com/",
+        "initial_url": "https://www.arcmarumo.com/",
+        "initial_status": 200,
+        "final_url": "https://www.arcmarumo.com/",
+        "final_status": 200,
+        "redirects": [],
+        "navigation_events": [
+          {
+            "url": "https://www.arcmarumo.com/",
+            "status": 200,
+            "phase": "desktop:load",
+            "kind": "initial"
+          }
+        ],
+        "navigation_error": null,
+        "unauthorized_redirects": [],
+        "title": "Arc \u00a9'26",
+        "access": {
+          "state": "ok",
+          "blocked": false,
+          "title": "Arc \u00a9'26",
+          "final_url": "https://www.arcmarumo.com/",
+          "evidence": {
+            "http_status": 200,
+            "url_challenge_markers": [],
+            "title_challenge_markers": [],
+            "body_challenge_markers": [],
+            "selector_markers": [],
+            "url_login_markers": [],
+            "title_login_markers": [],
+            "body_login_markers": [],
+            "visible_password_fields": 0,
+            "title_error_markers": [],
+            "body_error_markers": [],
+            "consent_overlay_coverage": 0,
+            "root_overflow_locked": true
+          }
+        }
+      },
+      "settle": {
+        "strategy": "domcontentloaded_plus_bounded_stability",
+        "max_ms": 5000,
+        "sample_ms": 250,
+        "required_stable_samples": 3,
+        "samples": 5,
+        "elapsed_ms": 1271,
+        "stable": true,
+        "timed_out": false,
+        "final_sample": {
+          "readyState": "complete",
+          "domNodes": 169,
+          "resourceCount": 37,
+          "scrollHeight": 900,
+          "pendingImages": 0,
+          "fontStatus": "loaded"
+        },
+        "errors": []
+      },
+      "scroll": {
+        "mechanism": "wheel_virtual_scroll",
+        "steps_requested": 12,
+        "steps_completed": 12,
+        "returned_to_start": false,
+        "profile": {
+          "scrollHeight": 900,
+          "innerHeight": 900,
+          "windowScrollY": 0,
+          "windowRange": 0,
+          "rootOverflowHidden": true,
+          "internalContainer": null,
+          "virtualSignals": [
+            "root_overflow_hidden_without_native_range"
+          ]
+        },
+        "observations": {},
+        "warnings": [
+          "Wheel events were exercised, but virtual-scroll coverage and return to the initial state cannot be proven from document position alone."
+        ]
+      },
+      "service_worker": {
+        "api_available": true,
+        "controller": null,
+        "registrations": [],
+        "cache_names": [],
+        "precache_resources": [],
+        "precache_truncated": false,
+        "errors": []
+      },
+      "service_worker_validation": {
+        "required": false
+      },
+      "route_inventory": [
+        {
+          "url": "https://www.arcmarumo.com/",
+          "path": "/",
+          "source": "anchor",
+          "url_redacted": false
+        },
+        {
+          "url": "https://www.arcmarumo.com/news-watch",
+          "path": "/news-watch",
+          "source": "anchor",
+          "url_redacted": false
+        },
+        {
+          "url": "https://www.arcmarumo.com/profile",
+          "path": "/profile",
+          "source": "anchor",
+          "url_redacted": false
+        },
+        {
+          "url": "https://www.arcmarumo.com/work/depthfirst",
+          "path": "/work/depthfirst",
+          "source": "anchor",
+          "url_redacted": false
+        }
+      ],
+      "metadata_references": [
+        {
+          "url": "https://www.arcmarumo.com/og.jpg",
+          "url_redacted": false,
+          "sensitive_query_keys": [],
+          "kind": "open_graph_image",
+          "source": "meta[og:image]",
+          "observed": true,
+          "probed": true,
+          "captured": false,
+          "states": [
+            "Observed",
+            "Probed"
+          ],
+          "probe": {
+            "method": "HEAD",
+            "metadata_only": true,
+            "status": 200,
+            "content_type": "image/jpeg",
+            "final_url": "https://www.arcmarumo.com/og.jpg",
+            "redirect_target": null,
+            "redirect_authorized": null
+          },
+          "passes": [
+            "desktop"
+          ]
+        },
+        {
+          "url": "https://www.arcmarumo.com/og.jpg",
+          "url_redacted": false,
+          "sensitive_query_keys": [],
+          "kind": "twitter_image",
+          "source": "meta[twitter:image]",
+          "observed": true,
+          "probed": true,
+          "captured": false,
+          "states": [
+            "Observed",
+            "Probed"
+          ],
+          "probe": {
+            "method": "HEAD",
+            "metadata_only": true,
+            "status": 200,
+            "content_type": "image/jpeg",
+            "final_url": "https://www.arcmarumo.com/og.jpg",
+            "redirect_target": null,
+            "redirect_authorized": null
+          },
+          "passes": [
+            "desktop"
+          ]
+        },
+        {
+          "url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+          "url_redacted": false,
+          "sensitive_query_keys": [],
+          "kind": "favicon",
+          "source": "link[rel=icon]",
+          "observed": true,
+          "probed": true,
+          "captured": false,
+          "states": [
+            "Observed",
+            "Probed"
+          ],
+          "probe": {
+            "method": "HEAD",
+            "metadata_only": true,
+            "status": 200,
+            "content_type": "image/vnd.microsoft.icon",
+            "final_url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+            "redirect_target": null,
+            "redirect_authorized": null
+          },
+          "passes": [
+            "desktop"
+          ]
+        },
+        {
+          "url": "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg",
+          "url_redacted": false,
+          "sensitive_query_keys": [],
+          "kind": "favicon",
+          "source": "link[rel=icon]",
+          "observed": true,
+          "probed": true,
+          "captured": false,
+          "states": [
+            "Observed",
+            "Probed"
+          ],
+          "probe": {
+            "method": "HEAD",
+            "metadata_only": true,
+            "status": 200,
+            "content_type": "image/svg+xml",
+            "final_url": "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg",
+            "redirect_target": null,
+            "redirect_authorized": null
+          },
+          "passes": [
+            "desktop"
+          ]
+        },
+        {
+          "url": "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png",
+          "url_redacted": false,
+          "sensitive_query_keys": [],
+          "kind": "favicon",
+          "source": "link[rel=icon]",
+          "observed": true,
+          "probed": true,
+          "captured": false,
+          "states": [
+            "Observed",
+            "Probed"
+          ],
+          "probe": {
+            "method": "HEAD",
+            "metadata_only": true,
+            "status": 200,
+            "content_type": "image/png",
+            "final_url": "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png",
+            "redirect_target": null,
+            "redirect_authorized": null
+          },
+          "passes": [
+            "desktop"
+          ]
+        },
+        {
+          "url": "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png",
+          "url_redacted": false,
+          "sensitive_query_keys": [],
+          "kind": "favicon",
+          "source": "link[rel=apple-touch-icon]",
+          "observed": true,
+          "probed": true,
+          "captured": false,
+          "states": [
+            "Observed",
+            "Probed"
+          ],
+          "probe": {
+            "method": "HEAD",
+            "metadata_only": true,
+            "status": 200,
+            "content_type": "image/png",
+            "final_url": "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png",
+            "redirect_target": null,
+            "redirect_authorized": null
+          },
+          "passes": [
+            "desktop"
+          ]
+        }
+      ],
+      "post_scroll_settle": {
+        "strategy": "domcontentloaded_plus_bounded_stability",
+        "max_ms": 5000,
+        "sample_ms": 250,
+        "required_stable_samples": 3,
+        "samples": 3,
+        "elapsed_ms": 765,
+        "stable": true,
+        "timed_out": false,
+        "final_sample": {
+          "readyState": "complete",
+          "domNodes": 163,
+          "resourceCount": 37,
+          "scrollHeight": 900,
+          "pendingImages": 0,
+          "fontStatus": "loaded"
+        },
+        "errors": []
+      },
+      "post_scroll_access": {
+        "state": "ok",
+        "blocked": false,
+        "title": "Arc \u00a9'26",
+        "final_url": "https://www.arcmarumo.com/",
+        "evidence": {
+          "http_status": 200,
+          "url_challenge_markers": [],
+          "title_challenge_markers": [],
+          "body_challenge_markers": [],
+          "selector_markers": [],
+          "url_login_markers": [],
+          "title_login_markers": [],
+          "body_login_markers": [],
+          "visible_password_fields": 0,
+          "title_error_markers": [],
+          "body_error_markers": [],
+          "consent_overlay_coverage": 0,
+          "root_overflow_locked": true
+        }
+      },
+      "post_metadata_access": {
+        "state": "ok",
+        "blocked": false,
+        "title": "Arc \u00a9'26",
+        "final_url": "https://www.arcmarumo.com/",
+        "evidence": {
+          "http_status": 200,
+          "url_challenge_markers": [],
+          "title_challenge_markers": [],
+          "body_challenge_markers": [],
+          "selector_markers": [],
+          "url_login_markers": [],
+          "title_login_markers": [],
+          "body_login_markers": [],
+          "visible_password_fields": 0,
+          "title_error_markers": [],
+          "body_error_markers": [],
+          "consent_overlay_coverage": 0,
+          "root_overflow_locked": true
+        }
+      },
+      "final_access": {
+        "state": "ok",
+        "blocked": false,
+        "title": "Arc \u00a9'26",
+        "final_url": "https://www.arcmarumo.com/",
+        "evidence": {
+          "http_status": 200,
+          "url_challenge_markers": [],
+          "title_challenge_markers": [],
+          "body_challenge_markers": [],
+          "selector_markers": [],
+          "url_login_markers": [],
+          "title_login_markers": [],
+          "body_login_markers": [],
+          "visible_password_fields": 0,
+          "title_error_markers": [],
+          "body_error_markers": [],
+          "consent_overlay_coverage": 0,
+          "root_overflow_locked": true
+        }
+      }
+    },
+    {
+      "viewport": "mobile",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "fresh_isolated_context": true,
+      "service_worker_mode": "allow",
+      "navigation": {
+        "requested_url": "https://www.arcmarumo.com/",
+        "initial_url": "https://www.arcmarumo.com/",
+        "initial_status": 200,
+        "final_url": "https://www.arcmarumo.com/",
+        "final_status": 200,
+        "redirects": [],
+        "navigation_events": [
+          {
+            "url": "https://www.arcmarumo.com/",
+            "status": 200,
+            "phase": "mobile:load",
+            "kind": "initial"
+          }
+        ],
+        "navigation_error": null,
+        "unauthorized_redirects": [],
+        "title": "Arc \u00a9'26",
+        "access": {
+          "state": "ok",
+          "blocked": false,
+          "title": "Arc \u00a9'26",
+          "final_url": "https://www.arcmarumo.com/",
+          "evidence": {
+            "http_status": 200,
+            "url_challenge_markers": [],
+            "title_challenge_markers": [],
+            "body_challenge_markers": [],
+            "selector_markers": [],
+            "url_login_markers": [],
+            "title_login_markers": [],
+            "body_login_markers": [],
+            "visible_password_fields": 0,
+            "title_error_markers": [],
+            "body_error_markers": [],
+            "consent_overlay_coverage": 0,
+            "root_overflow_locked": true
+          }
+        }
+      },
+      "settle": {
+        "strategy": "domcontentloaded_plus_bounded_stability",
+        "max_ms": 5000,
+        "sample_ms": 250,
+        "required_stable_samples": 3,
+        "samples": 5,
+        "elapsed_ms": 1279,
+        "stable": true,
+        "timed_out": false,
+        "final_sample": {
+          "readyState": "complete",
+          "domNodes": 167,
+          "resourceCount": 33,
+          "scrollHeight": 844,
+          "pendingImages": 0,
+          "fontStatus": "loaded"
+        },
+        "errors": []
+      },
+      "scroll": {
+        "mechanism": "wheel_virtual_scroll",
+        "steps_requested": 12,
+        "steps_completed": 12,
+        "returned_to_start": false,
+        "profile": {
+          "scrollHeight": 844,
+          "innerHeight": 844,
+          "windowScrollY": 0,
+          "windowRange": 0,
+          "rootOverflowHidden": true,
+          "internalContainer": null,
+          "virtualSignals": [
+            "root_overflow_hidden_without_native_range"
+          ]
+        },
+        "observations": {},
+        "warnings": [
+          "Wheel events were exercised, but virtual-scroll coverage and return to the initial state cannot be proven from document position alone."
+        ]
+      },
+      "service_worker": {
+        "api_available": true,
+        "controller": null,
+        "registrations": [],
+        "cache_names": [],
+        "precache_resources": [],
+        "precache_truncated": false,
+        "errors": []
+      },
+      "service_worker_validation": {
+        "required": false
+      },
+      "route_inventory": [
+        {
+          "url": "https://www.arcmarumo.com/",
+          "path": "/",
+          "source": "anchor",
+          "url_redacted": false
+        },
+        {
+          "url": "https://www.arcmarumo.com/news-watch",
+          "path": "/news-watch",
+          "source": "anchor",
+          "url_redacted": false
+        },
+        {
+          "url": "https://www.arcmarumo.com/profile",
+          "path": "/profile",
+          "source": "anchor",
+          "url_redacted": false
+        },
+        {
+          "url": "https://www.arcmarumo.com/work/depthfirst",
+          "path": "/work/depthfirst",
+          "source": "anchor",
+          "url_redacted": false
+        }
+      ],
+      "metadata_references": [
+        {
+          "url": "https://www.arcmarumo.com/og.jpg",
+          "url_redacted": false,
+          "sensitive_query_keys": [],
+          "kind": "open_graph_image",
+          "source": "meta[og:image]",
+          "observed": true,
+          "probed": true,
+          "captured": false,
+          "states": [
+            "Observed",
+            "Probed"
+          ],
+          "probe": {
+            "method": "HEAD",
+            "metadata_only": true,
+            "status": 200,
+            "content_type": "image/jpeg",
+            "final_url": "https://www.arcmarumo.com/og.jpg",
+            "redirect_target": null,
+            "redirect_authorized": null
+          },
+          "passes": [
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://www.arcmarumo.com/og.jpg",
+          "url_redacted": false,
+          "sensitive_query_keys": [],
+          "kind": "twitter_image",
+          "source": "meta[twitter:image]",
+          "observed": true,
+          "probed": true,
+          "captured": false,
+          "states": [
+            "Observed",
+            "Probed"
+          ],
+          "probe": {
+            "method": "HEAD",
+            "metadata_only": true,
+            "status": 200,
+            "content_type": "image/jpeg",
+            "final_url": "https://www.arcmarumo.com/og.jpg",
+            "redirect_target": null,
+            "redirect_authorized": null
+          },
+          "passes": [
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+          "url_redacted": false,
+          "sensitive_query_keys": [],
+          "kind": "favicon",
+          "source": "link[rel=icon]",
+          "observed": true,
+          "probed": true,
+          "captured": false,
+          "states": [
+            "Observed",
+            "Probed"
+          ],
+          "probe": {
+            "method": "HEAD",
+            "metadata_only": true,
+            "status": 200,
+            "content_type": "image/vnd.microsoft.icon",
+            "final_url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+            "redirect_target": null,
+            "redirect_authorized": null
+          },
+          "passes": [
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg",
+          "url_redacted": false,
+          "sensitive_query_keys": [],
+          "kind": "favicon",
+          "source": "link[rel=icon]",
+          "observed": true,
+          "probed": true,
+          "captured": false,
+          "states": [
+            "Observed",
+            "Probed"
+          ],
+          "probe": {
+            "method": "HEAD",
+            "metadata_only": true,
+            "status": 200,
+            "content_type": "image/svg+xml",
+            "final_url": "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg",
+            "redirect_target": null,
+            "redirect_authorized": null
+          },
+          "passes": [
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png",
+          "url_redacted": false,
+          "sensitive_query_keys": [],
+          "kind": "favicon",
+          "source": "link[rel=icon]",
+          "observed": true,
+          "probed": true,
+          "captured": false,
+          "states": [
+            "Observed",
+            "Probed"
+          ],
+          "probe": {
+            "method": "HEAD",
+            "metadata_only": true,
+            "status": 200,
+            "content_type": "image/png",
+            "final_url": "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png",
+            "redirect_target": null,
+            "redirect_authorized": null
+          },
+          "passes": [
+            "mobile"
+          ]
+        },
+        {
+          "url": "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png",
+          "url_redacted": false,
+          "sensitive_query_keys": [],
+          "kind": "favicon",
+          "source": "link[rel=apple-touch-icon]",
+          "observed": true,
+          "probed": true,
+          "captured": false,
+          "states": [
+            "Observed",
+            "Probed"
+          ],
+          "probe": {
+            "method": "HEAD",
+            "metadata_only": true,
+            "status": 200,
+            "content_type": "image/png",
+            "final_url": "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png",
+            "redirect_target": null,
+            "redirect_authorized": null
+          },
+          "passes": [
+            "mobile"
+          ]
+        }
+      ],
+      "post_scroll_settle": {
+        "strategy": "domcontentloaded_plus_bounded_stability",
+        "max_ms": 5000,
+        "sample_ms": 250,
+        "required_stable_samples": 3,
+        "samples": 5,
+        "elapsed_ms": 1269,
+        "stable": true,
+        "timed_out": false,
+        "final_sample": {
+          "readyState": "complete",
+          "domNodes": 163,
+          "resourceCount": 37,
+          "scrollHeight": 844,
+          "pendingImages": 0,
+          "fontStatus": "loaded"
+        },
+        "errors": []
+      },
+      "post_scroll_access": {
+        "state": "ok",
+        "blocked": false,
+        "title": "Arc \u00a9'26",
+        "final_url": "https://www.arcmarumo.com/",
+        "evidence": {
+          "http_status": 200,
+          "url_challenge_markers": [],
+          "title_challenge_markers": [],
+          "body_challenge_markers": [],
+          "selector_markers": [],
+          "url_login_markers": [],
+          "title_login_markers": [],
+          "body_login_markers": [],
+          "visible_password_fields": 0,
+          "title_error_markers": [],
+          "body_error_markers": [],
+          "consent_overlay_coverage": 0,
+          "root_overflow_locked": true
+        }
+      },
+      "post_metadata_access": {
+        "state": "ok",
+        "blocked": false,
+        "title": "Arc \u00a9'26",
+        "final_url": "https://www.arcmarumo.com/",
+        "evidence": {
+          "http_status": 200,
+          "url_challenge_markers": [],
+          "title_challenge_markers": [],
+          "body_challenge_markers": [],
+          "selector_markers": [],
+          "url_login_markers": [],
+          "title_login_markers": [],
+          "body_login_markers": [],
+          "visible_password_fields": 0,
+          "title_error_markers": [],
+          "body_error_markers": [],
+          "consent_overlay_coverage": 0,
+          "root_overflow_locked": true
+        }
+      },
+      "final_access": {
+        "state": "ok",
+        "blocked": false,
+        "title": "Arc \u00a9'26",
+        "final_url": "https://www.arcmarumo.com/",
+        "evidence": {
+          "http_status": 200,
+          "url_challenge_markers": [],
+          "title_challenge_markers": [],
+          "body_challenge_markers": [],
+          "selector_markers": [],
+          "url_login_markers": [],
+          "title_login_markers": [],
+          "body_login_markers": [],
+          "visible_password_fields": 0,
+          "title_error_markers": [],
+          "body_error_markers": [],
+          "consent_overlay_coverage": 0,
+          "root_overflow_locked": true
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_requests": 50,
+    "total_responses": 50,
+    "same_origin": 36,
+    "external": 14,
+    "loaded_during_scroll": 4,
+    "automatically_acquirable_static_get_head": 43,
+    "metadata_references": 6,
+    "by_resource_type": {
+      "document": 1,
+      "script": 20,
+      "fetch": 7,
+      "stylesheet": 1,
+      "font": 2,
+      "image": 19
+    },
+    "by_request_class": {
+      "document": 1,
+      "static": 42,
+      "data_api": 5,
+      "personalized_data": 2
+    },
+    "providers_detected": [],
+    "recorder_errors": 0
+  },
+  "same_site_routes_from_anchors": [
+    "/",
+    "/news-watch",
+    "/profile",
+    "/work/depthfirst"
+  ],
+  "route_inventory": [
+    {
+      "url": "https://www.arcmarumo.com/",
+      "path": "/",
+      "source": "anchor",
+      "url_redacted": false
+    },
+    {
+      "url": "https://www.arcmarumo.com/news-watch",
+      "path": "/news-watch",
+      "source": "anchor",
+      "url_redacted": false
+    },
+    {
+      "url": "https://www.arcmarumo.com/profile",
+      "path": "/profile",
+      "source": "anchor",
+      "url_redacted": false
+    },
+    {
+      "url": "https://www.arcmarumo.com/work/depthfirst",
+      "path": "/work/depthfirst",
+      "source": "anchor",
+      "url_redacted": false
+    }
+  ],
+  "metadata_references": [
+    {
+      "url": "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "kind": "favicon",
+      "source": "link[rel=apple-touch-icon]",
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "states": [
+        "Observed",
+        "Probed"
+      ],
+      "probe": {
+        "method": "HEAD",
+        "metadata_only": true,
+        "status": 200,
+        "content_type": "image/png",
+        "final_url": "https://www.arcmarumo.com/apple-icon.png?apple-icon.3fk7fxyh80oro.png",
+        "redirect_target": null,
+        "redirect_authorized": null
+      },
+      "passes": [
+        "desktop",
+        "mobile"
+      ]
+    },
+    {
+      "url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "kind": "favicon",
+      "source": "link[rel=icon]",
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "states": [
+        "Observed",
+        "Probed"
+      ],
+      "probe": {
+        "method": "HEAD",
+        "metadata_only": true,
+        "status": 200,
+        "content_type": "image/vnd.microsoft.icon",
+        "final_url": "https://www.arcmarumo.com/favicon.ico?favicon.2g6m_zl2nfl0r.ico",
+        "redirect_target": null,
+        "redirect_authorized": null
+      },
+      "passes": [
+        "desktop",
+        "mobile"
+      ]
+    },
+    {
+      "url": "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "kind": "favicon",
+      "source": "link[rel=icon]",
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "states": [
+        "Observed",
+        "Probed"
+      ],
+      "probe": {
+        "method": "HEAD",
+        "metadata_only": true,
+        "status": 200,
+        "content_type": "image/svg+xml",
+        "final_url": "https://www.arcmarumo.com/icon.svg?icon.2a7e020547f6u.svg",
+        "redirect_target": null,
+        "redirect_authorized": null
+      },
+      "passes": [
+        "desktop",
+        "mobile"
+      ]
+    },
+    {
+      "url": "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "kind": "favicon",
+      "source": "link[rel=icon]",
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "states": [
+        "Observed",
+        "Probed"
+      ],
+      "probe": {
+        "method": "HEAD",
+        "metadata_only": true,
+        "status": 200,
+        "content_type": "image/png",
+        "final_url": "https://www.arcmarumo.com/icon1.png?icon1.0uxe_7gbthhae.png",
+        "redirect_target": null,
+        "redirect_authorized": null
+      },
+      "passes": [
+        "desktop",
+        "mobile"
+      ]
+    },
+    {
+      "url": "https://www.arcmarumo.com/og.jpg",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "kind": "open_graph_image",
+      "source": "meta[og:image]",
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "states": [
+        "Observed",
+        "Probed"
+      ],
+      "probe": {
+        "method": "HEAD",
+        "metadata_only": true,
+        "status": 200,
+        "content_type": "image/jpeg",
+        "final_url": "https://www.arcmarumo.com/og.jpg",
+        "redirect_target": null,
+        "redirect_authorized": null
+      },
+      "passes": [
+        "desktop",
+        "mobile"
+      ]
+    },
+    {
+      "url": "https://www.arcmarumo.com/og.jpg",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "kind": "twitter_image",
+      "source": "meta[twitter:image]",
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "states": [
+        "Observed",
+        "Probed"
+      ],
+      "probe": {
+        "method": "HEAD",
+        "metadata_only": true,
+        "status": 200,
+        "content_type": "image/jpeg",
+        "final_url": "https://www.arcmarumo.com/og.jpg",
+        "redirect_target": null,
+        "redirect_authorized": null
+      },
+      "passes": [
+        "desktop",
+        "mobile"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://www.arcmarumo.com/",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "26c70627ac3730716f73320a6ebb3d639f34e2262a421eeec0cf3597ac1263de",
+      "method": "GET",
+      "resource_type": "document",
+      "data_type": "html_document",
+      "request_class": "document",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_document_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "text/html; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/5d18c82ce29be22e/script.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "17176b86ba8ce38f8abd49124d1878f08d812addd7a5f2137f7f1c3fa9239d8b",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/?_rsc=8nTjltbQWvg6NcbE",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "c83807b6a4fd783029f36c6bcd8c4ecc64c752c8ff1aa13395297b1687bb7613",
+      "method": "GET",
+      "resource_type": "fetch",
+      "data_type": "unknown_xhr_fetch",
+      "request_class": "data_api",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": false,
+        "reason": "unknown_xhr_fetch_is_not_static"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "text/x-component",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/07v142o5owpy6.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "19556706a7eac9f00001f3ca332be31323ec7276ecc66c3872d6c5fafe4a92ec",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/09ouw4cybbr0h.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "b5e56882b322863d5e0badcf234f3bf8351ac677f4241457fa503ac59803c12a",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0cysmklug28fm.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "42df7e28d3979cbbf19829b5c1a9c31090ef3b7d0227d29dc264bc73e5d04234",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0fovf4mbrzuxx.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "73f75c26ff4417ba20511c03f2a87652453f8603c6144936fad96bd551adc623",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/0i3qf0zh14s38.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "444bd56b37ca0295bf3bf30932c47593eea711841929f438e52223fed64a2d32",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/134kwktq953r0.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "cfe4aa72bef6342351b8f9a33663a509ca20876d028d93fe560d6db0cf099bf7",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1_b_tm3wqqtaz.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "db119b1d2eeecb5347c2554d1a923a37fee3dc1dcb54657076f34a56c9267155",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1gvz9m-n0qmop.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "f787b76325a8e5fb6f06cfc6a164ee23032c0d6bc3a6eeb9852bf22337bc541f",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/1ocoz51g5g0mk.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "e775f6142f642bfa0384610c6da2b8eed54e1fb57772ff489200336acc2b75ce",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:metadata",
+      "phases": [
+        "desktop:metadata",
+        "mobile:scroll"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/2-5-dyx-8dsia.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "98eccb4b7c8f0efddba0e3823f271d8341913c835a92413dac36bc52a1cb1839",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:scroll"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/24l721ux8dkx7.css",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "b24708a91e50d2b4d9628db733006de45f929dfc9e9ee18fe0f87e688e13d990",
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "data_type": "stylesheet",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "text/css; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/27fkz_hesr-qz.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "92406570f4d3be1fdbc96c73ddbe06eccbe8ea1e203e636e15eee20b59054911",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/2zssteotfl-i9.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "1110ff87dc76014da13a370384824588c4e569b423de0df6748b7b40fd1f8fc3",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3249jth5xr7lx.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "fc297d77c5f9e1f1023fdbfcd934316bb8fff540523426a180f5b142a3d4c899",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/39ylgc66xe1xs.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "79cdbf9a63368559e5c1d48abac66213ba9a3cd577fa7bc93c1a3bd71d81de3f",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3i898asfgc_9u.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "730f16f3d0b8c1a3fb00aa32ad79ca2e1561f1e59d3b3373eff70d099bba7487",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3nq15eu2ijf2b.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "766f4398232406a01818c8162b8da6b9c7ea1b7000084e80f57154aca5978979",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": 425,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/3zb5vxwecmax-.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "b08d27c2bb53890230c7a5f18d1ca6041953d2e219e3bf38d11d827eefa4b539",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/chunks/turbopack-2nwkajip8w80t.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "d443b87792366d57bd940d4a6745aea62c15cb588cf2a0aa1e693f2fef4af434",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/media/NeueBit_Bold-s.p.1o0qymtuv0t4o.woff2",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "bea88d72fdf85c48d8e4516b6726c90874a1509ccf8e96bcc407886d5cff4cf0",
+      "method": "GET",
+      "resource_type": "font",
+      "data_type": "font",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "font/woff2",
+      "content_length": 62140,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/_next/static/immutable/media/PPNeueMontrealMono_Medium-s.p.1gnh4ljroxkv0.woff2",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "410f319fe8613a4711cd49864df1f8bf080d61a49eb6171cdfc9e9f4dd622174",
+      "method": "GET",
+      "resource_type": "font",
+      "data_type": "font",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "font/woff2",
+      "content_length": 83452,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/aafe13344bef70fc/script.js",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "3052f2a553e7d7398ae04a554de11b9ed3349ac1dcceded803c344753f6c271d",
+      "method": "GET",
+      "resource_type": "script",
+      "data_type": "script",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "application/javascript; charset=utf-8",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/brand/arc-bands.svg",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "a065f3fce9fe0617d7be2c2d1f1c4a68dc089863bf07f8ca457335faa532d7a3",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/svg+xml",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "mobile:load",
+      "phases": [
+        "mobile:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/brand/arc-logo.svg",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "7fd4ce1165c6261ad41ac7b081c600e9648fc881dcf44a04d9e416856e25b599",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/svg+xml",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/brand/logo-rule.svg",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "8d241a6804903c811685ec7054fce6c72f00517890e42a11d3045683bf8da46c",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/svg+xml",
+      "content_length": 270,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/brand/tv-glass-960.avif",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "e83bfe81d35dcc9300e7597d7bc8b7a2f2e9ddc65bd4e9371d523140051ea49b",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 23494,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "mobile:load",
+      "phases": [
+        "mobile:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/brand/tv-glass.webp",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "7e3e0e87dd66071a596c9f6dcedf8aa83784b7e867138cae5f8a1e7473eeb5a5",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/webp",
+      "content_length": 238138,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": true,
+      "requirement_reason": "observed successful same-origin static GET in declared capture coverage"
+    },
+    {
+      "url": "https://www.arcmarumo.com/news-watch?_rsc=5CB68i4pnAekjehf",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "014adcfad864f7e8a2aee537174c3a1f09004e1fbc3223b0d774ac1abeafb837",
+      "method": "GET",
+      "resource_type": "fetch",
+      "data_type": "unknown_xhr_fetch",
+      "request_class": "data_api",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": false,
+        "reason": "unknown_xhr_fetch_is_not_static"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "text/x-component",
+      "content_length": 879,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://www.arcmarumo.com/news-watch?_rsc=_3WyR1AeprQyLPWl",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "cb73452b9de6a4d4796cd70599ec1e33bef66826e8291aeea1c8de89a0bbf38c",
+      "method": "GET",
+      "resource_type": "fetch",
+      "data_type": "unknown_xhr_fetch",
+      "request_class": "data_api",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": false,
+        "reason": "unknown_xhr_fetch_is_not_static"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "text/x-component",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://www.arcmarumo.com/profile?_rsc=5CB68i4pnAekjehf",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "c28be720aa3a8d6582be3d7567143a567db086e5c5de7386c4945fb071603c25",
+      "method": "GET",
+      "resource_type": "fetch",
+      "data_type": "api_data",
+      "request_class": "personalized_data",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": false,
+        "reason": "personalized_evidence_observed_in_one_or_more_responses"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "text/x-component",
+      "content_length": 876,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://www.arcmarumo.com/profile?_rsc=OaIDnoGERc4CCAQ9",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "ce160e9a5b14eca42b3a660ebb29d4f13a0142428e670e8588c9bfdb1111bb88",
+      "method": "GET",
+      "resource_type": "fetch",
+      "data_type": "api_data",
+      "request_class": "personalized_data",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": false,
+        "reason": "personalized_evidence_observed_in_one_or_more_responses"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "text/x-component",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load",
+        "mobile:load"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://www.arcmarumo.com/work/depthfirst?_rsc=5CB68i4pnAekjehf",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "d7ea0d9109f6736200846f4426d37a3ad31073f0bb736b106ffb768b08a233f2",
+      "method": "GET",
+      "resource_type": "fetch",
+      "data_type": "unknown_xhr_fetch",
+      "request_class": "data_api",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": false,
+        "reason": "unknown_xhr_fetch_is_not_static"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "text/x-component",
+      "content_length": 985,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:scroll",
+      "phases": [
+        "desktop:scroll",
+        "mobile:scroll"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://www.arcmarumo.com/work/depthfirst?_rsc=y6pgQWwLckoW4aDt",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "25821e83ad0b1f6e0067f9297c93b9ae4a691a3263c441e11b80f3935b6214fc",
+      "method": "GET",
+      "resource_type": "fetch",
+      "data_type": "unknown_xhr_fetch",
+      "request_class": "data_api",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": false,
+        "reason": "unknown_xhr_fetch_is_not_static"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "text/x-component",
+      "content_length": null,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:metadata",
+      "phases": [
+        "desktop:metadata",
+        "mobile:scroll"
+      ],
+      "occurrences": 2,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://www.arcmarumo.com",
+      "same_origin": true,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=1200&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "c307a87269f10b0a5bd304b529217dbe81ee256a5bb0cdc3c28547d1633879cb",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 27579,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/0b6a9d47b94e751d049df2b3f31706402e30836b-762x1150.webp?w=640&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "96cf8abbaa7e355b474c483994f9b45962db6d5de159db629d7822517c8e5140",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 13982,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "mobile:load",
+      "phases": [
+        "mobile:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=1200&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "517850bc50a694c4d54f95722f1e6c826ce811f2511629eddabd8c0528adcdb8",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 54192,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/0d2f7998cf79c6182a9aaa65c399492e7c370faa-762x1150.webp?w=640&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "028de1301a76fcfcd3df5f921a558750f0a23390b4d35118cb5a53ceedf40477",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 21179,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "mobile:load",
+      "phases": [
+        "mobile:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=1200&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "d5845e1c62757730444d536aa86ae4d1ff07f279a9f4d8fea27e5feb6b3c7b67",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 98203,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/2c6d662d3a03cc811f4c4181f3752181cb1cdb05-762x1150.webp?w=640&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "0af3f53549bd20e8d6a78d23be479d10d13449ca98ecf45698068798d7f458bd",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 47845,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "mobile:load",
+      "phases": [
+        "mobile:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=1200&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "4f1072f7b95b3db160585d54e16d880e24223081781c6aaed4a1a5d1427f631f",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 25442,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/5d872c051b87858247858e962bc7fad82874f136-762x1150.webp?w=640&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "58c29c2855efd61d6a6cd7aa5ec43bc945db7e0ad4b31ff4b010e4b4dc9afc13",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 11927,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "mobile:load",
+      "phases": [
+        "mobile:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=1200&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "d0a51924791044cb4c6f6cadf3023291c938e8ae0db63b455ab1f717784f3005",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 58485,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/ac9e00d6e5087d500bf2219e149e167bd56ecd75-762x1150.webp?w=640&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "382b031f5bebe2d75c74b991e66445ddace676db1f7bd5e284a655e18db66851",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 26884,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "mobile:load",
+      "phases": [
+        "mobile:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=1200&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "57d2339f324b7a3b9aa6de18720e42e2c9b514889f90d01fb0fc1891ed3244b2",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 37854,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/da5428375cc9fd88bf102e806c3339ce75d3ece5-762x1150.webp?w=640&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "979e782b0f414a2ddd5b07199826e4a35c330ae044fd249f7445146b69acdaf8",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 16833,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "mobile:load",
+      "phases": [
+        "mobile:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=1200&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "790de1472d7b5fa7a12f5c9d1e76b35d5a264b715cacbd743478055d95b6b9b5",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 72047,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "desktop:load",
+      "phases": [
+        "desktop:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    },
+    {
+      "url": "https://cdn.sanity.io/images/ngr7c3v4/production/de69761688b9f069680c2424a56b4048d88e613b-762x1150.webp?w=640&auto=format",
+      "url_redacted": false,
+      "sensitive_query_keys": [],
+      "request_identity": "ade5b910849b72c407816a077e6b717164fe0b0bee15f4ee682340de18c906ec",
+      "method": "GET",
+      "resource_type": "image",
+      "data_type": "image",
+      "request_class": "static",
+      "privacy_signals": [],
+      "acquisition": {
+        "automatic": true,
+        "reason": "classified_static_get_head"
+      },
+      "status": 200,
+      "status_history": [
+        200
+      ],
+      "content_type": "image/avif",
+      "content_length": 26234,
+      "provider": null,
+      "from_service_worker": false,
+      "first_seen": "mobile:load",
+      "phases": [
+        "mobile:load"
+      ],
+      "occurrences": 1,
+      "observed": true,
+      "probed": true,
+      "captured": false,
+      "failure": null,
+      "recomputed_origin": "https://cdn.sanity.io",
+      "same_origin": false,
+      "required_for_baseline": false
+    }
+  ],
+  "recorder_errors": []
+}

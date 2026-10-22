@@ -1,0 +1,8 @@
+{
+  "nomada-toast": { "title": "Nomada Toast", "video": "/nt/videos/nomada-toast.mp4", "poster": "/nt/videos/nomada-toast.jpg" },
+  "ai-studio": { "title": "AI Studio", "video": "/nt/videos/ai-studio.mp4", "poster": "/nt/videos/ai-studio.jpg" },
+  "viral-loop": { "title": "Viral Loop", "video": "/nt/videos/viral-loop.mp4", "poster": "/nt/videos/viral-loop.jpg" },
+  "x-ray": { "title": "X-Ray", "video": "/nt/videos/x-ray.mp4", "poster": "/nt/videos/x-ray.jpg" },
+  "road-test": { "title": "Road Test", "video": "/nt/videos/road-test.mp4", "poster": "/nt/videos/road-test.jpg" },
+  "supporter": { "title": "Supporter", "video": "/nt/videos/supporter.mp4", "poster": "/nt/videos/supporter.jpg" }
+}
