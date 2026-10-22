@@ -7,6 +7,8 @@ python3 site/_ntsm/serve.py cards --port 8040
 ```
 
 Then open http://localhost:8040 (a plain `http.server` works too, but caches; this one sends no-cache).
+
+- `cards-v2/` — an experiment kept alongside: same deal, but the camera settles low across the table and scrolling blows the polaroids up onto their edges. Run it with `python3 site/_ntsm/serve.py cards-v2 --port 8041`.
 Rebuild the polaroids with `python3 patches/build_polaroids.py` (photos and captions in `CARD_DATA`) and the table with `python3 patches/build_surface.py`. Motion, camera rise and the edge burn are tuned in `cards/js/config.js`.
 
 ## Earlier: VHS hero, NomadaToast edition

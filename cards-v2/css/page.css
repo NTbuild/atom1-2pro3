@@ -1,0 +1,97 @@
+/* The JO Mendes hero: a rounded black panel inset on a light page, nav in the light bar above,
+   white grotesk inside, a huge name, faint crosshair marks. The vortices at the edges are drawn
+   in WebGL (js/render/vortex.js). */
+:root {
+  --ink: #f2f0ec;
+  --paper: #f4f2ee;
+  --ground: #0c0c0d;
+  --sans: 'Inter', 'Helvetica Neue', system-ui, sans-serif;
+  --pad: clamp(20px, 2.3vw, 40px);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--paper); color: var(--ink); overflow: hidden; }
+body { font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+
+.tv {
+  position: fixed; inset: 0; border-radius: 0; overflow: hidden; background: var(--ground); isolation: isolate;
+  transition: inset 1.3s cubic-bezier(.65, 0, .25, 1), border-radius 1.3s cubic-bezier(.65, 0, .25, 1);
+}
+/* Loaded: the hero settles into a rounded panel on the light page. */
+html.loaded .tv { inset: 62px 12px 52px; border-radius: 22px; }
+
+.screen {
+  position: absolute;
+  inset: 0;
+  touch-action: none;
+  cursor: grab;
+  opacity: var(--power, 1);
+}
+.screen.dragging { cursor: grabbing; }
+#table { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.caption { display: none; }   /* the captions live on the polaroids themselves */
+
+/* ---- type ---- */
+.chrome, .lede, .name, .marks { position: absolute; pointer-events: none; z-index: 10; }
+
+.chrome.top {
+  position: fixed; top: 24px; left: 56px; right: 44px; color: var(--ink); z-index: 20;
+  transition: color 0.8s ease 0.4s;
+  display: flex; justify-content: space-between;
+  font: 400 16px/1 var(--sans); letter-spacing: -0.01em;
+}
+html.loaded .chrome.top { color: #111; }
+.aa { position: absolute; top: 22px; left: 38px; z-index: 10; font: 500 16px/1 var(--sans); pointer-events: none; }
+.nav { display: flex; gap: clamp(28px, 3.4vw, 56px); }
+
+.lede {
+  top: 62px; transition: top 1.3s cubic-bezier(.65, 0, .25, 1); left: var(--pad); right: var(--pad);
+  display: flex; justify-content: space-between;
+  font: 300 clamp(22px, 2.05vw, 34px)/1.1 var(--sans); letter-spacing: -0.02em;
+}
+.lede p { margin: 0; }
+
+.name {
+  left: calc(var(--pad) - 0.04em); bottom: calc(var(--pad) - 0.16em); margin: 0;
+  clip-path: inset(100% 0 0 0); transform: translateY(0.3em);
+  transition: clip-path 0.9s cubic-bezier(.2, .8, .2, 1) 0.35s, transform 0.9s cubic-bezier(.2, .8, .2, 1) 0.35s;
+  font: 600 clamp(120px, 15.6vw, 290px)/0.82 var(--sans); letter-spacing: -0.06em;
+  color: var(--ink);
+  mix-blend-mode: difference;   /* stays legible where a polaroid drifts behind it */
+}
+
+html.loaded .name { clip-path: inset(-10% 0 -10% 0); transform: none; }
+
+/* ---- the loading counter: the page's load, then the deal, counted to 100 % ---- */
+.loading {
+  position: absolute; left: calc(var(--pad) - 0.03em); bottom: var(--pad); z-index: 10; pointer-events: none;
+  transition: opacity 0.45s ease, transform 0.6s cubic-bezier(.6, 0, .4, 1);
+}
+.pct { display: block; font: 600 clamp(120px, 15vw, 280px)/0.8 var(--sans); letter-spacing: -0.06em; font-variant-numeric: tabular-nums; }
+.loading p { margin: 18px 0 0; font: 400 15px/1.2 var(--sans); }
+html.loaded .loading { opacity: 0; transform: translateY(-0.4em); }
+.aa, .lede { transition: opacity 0.6s ease 0.6s; }
+html:not(.loaded) .aa { opacity: 0; }
+
+.chrome.bottom {
+  right: var(--pad); bottom: var(--pad);
+  display: grid; grid-template-columns: auto auto; grid-template-rows: auto auto; column-gap: 18px; row-gap: 30px;
+  justify-items: end; align-items: end;
+}
+.mark { grid-column: 1; font: 700 26px/1 var(--sans); letter-spacing: -0.02em; }
+.clock { grid-column: 1; font: 400 13px/1.25 var(--sans); text-align: right; }
+.honors { grid-column: 2; grid-row: 1 / span 2; writing-mode: vertical-rl; transform: rotate(180deg); font: 400 12px/1 var(--sans); }
+
+/* ---- crosshairs and hairlines ---- */
+.marks { inset: 0; z-index: 2; }
+.cross { position: absolute; width: 22px; height: 22px; transform: translate(-50%, -50%); opacity: 0.55; }
+.cross::before, .cross::after { content: ''; position: absolute; background: var(--ink); }
+.cross::before { left: 50%; top: 0; bottom: 0; width: 1px; }
+.cross::after { top: 50%; left: 0; right: 0; height: 1px; }
+.hair { position: absolute; background: var(--ink); opacity: 0.16; }
+.hair.h { height: 1px; }
+.hair.v { width: 1px; }
+.arc { position: absolute; width: 34vw; height: 34vw; border: 1px solid var(--ink); border-radius: 50%; opacity: 0.07; }
+
+html.reduced .screen { opacity: 1; }
+html.reduced .tv, html.reduced .name, html.reduced .loading { transition: none; }

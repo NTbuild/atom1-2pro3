@@ -1,0 +1,271 @@
+{
+ "version": 1,
+ "seed": 7331,
+ "cardCm": [
+  7.3,
+  8.89
+ ],
+ "cornerCm": 0.1,
+ "ring": [
+  "9",
+  "10",
+  "j",
+  "q",
+  "k",
+  "a",
+  "8",
+  "7",
+  "6"
+ ],
+ "cards": [
+  {
+   "id": "9",
+   "rank": "2022",
+   "title": "Night out, 2022",
+   "sub": "dressed for it",
+   "accent": "#E8542A",
+   "wear": 0.4,
+   "backFade": 0.0,
+   "curl": {
+    "long": 0.07,
+    "lat": 0.03,
+    "twist": 0.02
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/9-front.webp",
+     "wear": "assets/cards/hi/9-wear.png",
+     "gloss": "assets/cards/hi/9-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/9-front.webp",
+     "wear": "assets/cards/lo/9-wear.png",
+     "gloss": "assets/cards/lo/9-gloss.png"
+    }
+   }
+  },
+  {
+   "id": "10",
+   "rank": "2024",
+   "title": "Road Trip, somewhere '24",
+   "sub": "good music, better directions",
+   "accent": "#E8542A",
+   "wear": 0.4,
+   "backFade": 0.0,
+   "curl": {
+    "long": 0.09,
+    "lat": 0.05,
+    "twist": 0.03
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/10-front.webp",
+     "wear": "assets/cards/hi/10-wear.png",
+     "gloss": "assets/cards/hi/10-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/10-front.webp",
+     "wear": "assets/cards/lo/10-wear.png",
+     "gloss": "assets/cards/lo/10-gloss.png"
+    }
+   }
+  },
+  {
+   "id": "j",
+   "rank": "2023",
+   "title": "A long story, 2023",
+   "sub": "same me, new chapter",
+   "accent": "#E8542A",
+   "wear": 0.4,
+   "backFade": 0.0,
+   "curl": {
+    "long": 0.12,
+    "lat": 0.06,
+    "twist": 0.04
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/j-front.webp",
+     "wear": "assets/cards/hi/j-wear.png",
+     "gloss": "assets/cards/hi/j-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/j-front.webp",
+     "wear": "assets/cards/lo/j-wear.png",
+     "gloss": "assets/cards/lo/j-gloss.png"
+    }
+   }
+  },
+  {
+   "id": "q",
+   "rank": "2024",
+   "title": "Tools I use, 24",
+   "sub": "create, test, repeat",
+   "accent": "#E8542A",
+   "wear": 0.4,
+   "backFade": 0.0,
+   "curl": {
+    "long": 0.06,
+    "lat": 0.03,
+    "twist": 0.02
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/q-front.webp",
+     "wear": "assets/cards/hi/q-wear.png",
+     "gloss": "assets/cards/hi/q-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/q-front.webp",
+     "wear": "assets/cards/lo/q-wear.png",
+     "gloss": "assets/cards/lo/q-gloss.png"
+    }
+   }
+  },
+  {
+   "id": "k",
+   "rank": "2024",
+   "title": "At home, 2024",
+   "sub": "good ideas late",
+   "accent": "#E8542A",
+   "wear": 0.4,
+   "backFade": 0.0,
+   "curl": {
+    "long": 0.08,
+    "lat": 0.04,
+    "twist": 0.02
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/k-front.webp",
+     "wear": "assets/cards/hi/k-wear.png",
+     "gloss": "assets/cards/hi/k-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/k-front.webp",
+     "wear": "assets/cards/lo/k-wear.png",
+     "gloss": "assets/cards/lo/k-gloss.png"
+    }
+   }
+  },
+  {
+   "id": "a",
+   "rank": "",
+   "title": "Work in progress",
+   "sub": "always building",
+   "accent": "#E8542A",
+   "wear": 0.4,
+   "backFade": 0.0,
+   "curl": {
+    "long": 0.11,
+    "lat": 0.05,
+    "twist": 0.03
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/a-front.webp",
+     "wear": "assets/cards/hi/a-wear.png",
+     "gloss": "assets/cards/hi/a-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/a-front.webp",
+     "wear": "assets/cards/lo/a-wear.png",
+     "gloss": "assets/cards/lo/a-gloss.png"
+    }
+   }
+  },
+  {
+   "id": "8",
+   "rank": "2021",
+   "title": "Good days, 2021",
+   "sub": "keep it simple",
+   "accent": "#E8542A",
+   "wear": 0.4,
+   "backFade": 0.0,
+   "curl": {
+    "long": 0.1,
+    "lat": 0.04,
+    "twist": 0.03
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/8-front.webp",
+     "wear": "assets/cards/hi/8-wear.png",
+     "gloss": "assets/cards/hi/8-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/8-front.webp",
+     "wear": "assets/cards/lo/8-wear.png",
+     "gloss": "assets/cards/lo/8-gloss.png"
+    }
+   }
+  },
+  {
+   "id": "7",
+   "rank": "2023",
+   "title": "Late shift, 2023",
+   "sub": "one more idea",
+   "accent": "#E8542A",
+   "wear": 0.4,
+   "backFade": 0.0,
+   "curl": {
+    "long": 0.08,
+    "lat": 0.05,
+    "twist": 0.02
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/7-front.webp",
+     "wear": "assets/cards/hi/7-wear.png",
+     "gloss": "assets/cards/hi/7-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/7-front.webp",
+     "wear": "assets/cards/lo/7-wear.png",
+     "gloss": "assets/cards/lo/7-gloss.png"
+    }
+   }
+  },
+  {
+   "id": "6",
+   "rank": "2022",
+   "title": "Day off, 2022",
+   "sub": "recharging",
+   "accent": "#E8542A",
+   "wear": 0.4,
+   "backFade": 0.0,
+   "curl": {
+    "long": 0.11,
+    "lat": 0.04,
+    "twist": 0.03
+   },
+   "dogEar": null,
+   "files": {
+    "hi": {
+     "front": "assets/cards/hi/6-front.webp",
+     "wear": "assets/cards/hi/6-wear.png",
+     "gloss": "assets/cards/hi/6-gloss.png"
+    },
+    "lo": {
+     "front": "assets/cards/lo/6-front.webp",
+     "wear": "assets/cards/lo/6-wear.png",
+     "gloss": "assets/cards/lo/6-gloss.png"
+    }
+   }
+  }
+ ],
+ "back": {
+  "hi": "assets/cards/hi/back.webp",
+  "lo": "assets/cards/lo/back.webp"
+ },
+ "dimple": "assets/cards/dimple-normal-256.png",
+ "dimpleTileCm": 0.8
+}
