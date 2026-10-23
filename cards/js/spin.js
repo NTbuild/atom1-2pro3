@@ -89,6 +89,17 @@ export class Leader {
         k.xOrigin = (c.rate > 0 ? 1 : -1) * SP.follow.upwindX;
         break;
       case 'notch':
+        // A wheel notch moves the row a set distance and it stops there: no momentum to coast out.
+        if (!this.reduced) {
+          if (k.mode !== MODE.pad) k.G = k.phi;
+          k.G = clamp(k.G + c.dir * SP.wheel.notchSlots, k.phi - SP.wheel.padClamp, k.phi + SP.wheel.padClamp);
+          k.padLastT = t; k.padDir = c.dir;
+          k.mode = MODE.pad;
+          k.xOrigin = (c.dir > 0 ? 1 : -1) * SP.follow.upwindX;
+          k.grabbed = -1;
+          break;
+        }
+      // falls through: under reduced motion a notch steps one card, like a key
       case 'key': {
         const q = c.type === 'key' ? SP.keys.maxQueue : SP.wheel.maxQueue;
         const base = k.mode === MODE.step || k.mode === MODE.snap ? k.target : r;
@@ -110,24 +121,20 @@ export class Leader {
 
   release(t) {
     const k = this.k, D = SP.drag, G = SP.glide;
-    const disp = k.phi - k.dragStart;
     k.grabbed = -1;
     if (t - k.lastMoveT >= D.stillHold) k.phiDot = 0;
     else k.phiDot = k.emaRate;
     if (this.reduced) { this.snapTo(Math.round(k.phi), MODE.snap, k.phiDot); return; }
-    if (Math.abs(k.phiDot) >= G.stopRate && Math.abs(disp) < D.flickMaxDisp) {
-      this.snapTo(Math.round(k.phi) + Math.sign(k.phiDot), MODE.snap, k.phiDot);
-    } else if (Math.abs(k.phiDot) >= G.stopRate) {
-      k.mode = MODE.glide;
-    } else {
-      this.glideTarget();
-    }
+    if (Math.abs(k.phiDot) >= G.stopRate) k.mode = MODE.glide;
+    else this.rest();
   }
 
-  glideTarget() {
-    const k = this.k, G = SP.glide;
-    const target = clamp(Math.round(k.phi + G.project * k.phiDot), k.phi - G.maxAhead, k.phi + G.maxAhead);
-    this.snapTo(Math.round(target), MODE.snap, target - k.phi || k.phiDot);
+  // Stop exactly where the row is: no rounding to a slot, no spring back.
+  rest() {
+    const k = this.k;
+    k.phiDot = 0;
+    k.target = k.phi;
+    k.mode = MODE.idle;
   }
 
   // Advance one step. Returns true on the step the leader lands on its target.
@@ -154,14 +161,11 @@ export class Leader {
       case MODE.glide:
         k.phiDot *= Math.exp(-dt / SP.glide.tau);
         k.phi += k.phiDot * dt;
-        if (Math.abs(k.phiDot) < SP.glide.stopRate) this.glideTarget();
+        if (Math.abs(k.phiDot) < SP.glide.stopRate) { this.rest(); landed = true; }
         break;
       case MODE.pad: {
         const W = SP.wheel;
-        if (k.padLastT >= 0 && t - k.padLastT >= W.padSettle) {
-          k.G = k.padDir > 0 ? Math.ceil(k.G - W.padRound) : Math.floor(k.G + W.padRound);
-          k.padLastT = -1;
-        }
+        if (k.padLastT >= 0 && t - k.padLastT >= W.padSettle) k.padLastT = -1;   // the swipe has ended: settle where it is
         const w = this.reduced ? SP.reducedSnap.omega : W.padOmega, z = this.reduced ? SP.reducedSnap.zeta : W.padZeta;
         k.phiDot += (w * w * (k.G - k.phi) - 2 * z * w * k.phiDot) * dt;
         k.phi += k.phiDot * dt;
@@ -171,7 +175,7 @@ export class Leader {
       case MODE.snap:
       case MODE.step:
       case MODE.closing: {
-        const s = this.reduced ? SP.reducedSnap : SP.snap;
+        const s = this.reduced ? SP.reducedSnap : k.mode === MODE.step ? SP.step : SP.snap;
         k.phiDot += (s.omega * s.omega * (k.target - k.phi) - 2 * s.zeta * s.omega * k.phiDot) * dt;
         k.phi += k.phiDot * dt;
         if (this.near(k.target)) { k.phi = k.target; k.phiDot = 0; k.mode = MODE.idle; landed = true; }
@@ -220,9 +224,9 @@ export function followStep(k, leader, index, xi, r, dt) {
   const F = SP.follow;
   leader.history(Math.abs(xi - L.xOrigin) / F.lagSpeed, lagged);
   k.air += (lagged[1] - k.air) * dt / F.airTau;
-  const w = F.omega * (1 + F.omegaJitter * r), z = F.zeta + F.zetaJitter * r;
-  k.phiv += (w * w * (lagged[0] - k.phi) + 2 * z * w * (k.air - k.phiv)) * dt;
-  k.phi += k.phiv * dt;
+  // The card rides the row exactly: when the row stops, the card stops with it (no spring to overshoot).
+  k.phi = lagged[0];
+  k.phiv = lagged[1];
 }
 
 // Bank, yaw lag and the flutter clock from the air over a card moving along the arc.

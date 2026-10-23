@@ -127,21 +127,22 @@ export const CONFIG = deepFreeze({
   },
 
   spin: {
-    drag: { emaKeep: 0.65, minDt: 0.008, maxRate: 9, stillHold: 0.09, flickMaxDisp: 0.5 },
-    glide: { tau: 0.42, stopRate: 2.2, project: 0.42, maxAhead: 4 },
+    drag: { emaKeep: 0.65, minDt: 0.008, maxRate: 9, stillHold: 0.09 },
+    glide: { tau: 0.12, stopRate: 0.02 },     // a released drag slides a touch and rests wherever it stops (no snap to a slot)
     wheel: {
-      lineScale: 16, pageScale: 400, notchMin: 40, notchGap: 0.03, maxQueue: 3,
-      padScale: 220, padOmega: 9, padZeta: 0.55, padSettle: 0.14, padRound: 0.35, padClamp: 3,
+      lineScale: 16, pageScale: 400, notchMin: 40, notchGap: 0.03, maxQueue: 3, notchSlots: 0.75,   // a notch moves the row most of a card, then it holds
+      padScale: 220, padOmega: 18, padZeta: 1, padSettle: 0.14, padClamp: 3,
     },
     keys: { repeat: 0.16, maxQueue: 3 },
-    snap: { omega: 9.0, zeta: 0.72 },
+    snap: { omega: 9.0, zeta: 0.72 },       // the closing gust of the deal
+    step: { omega: 10, zeta: 1 },           // arrow keys: one card, no overshoot
     reducedSnap: { omega: 12, zeta: 1 },
-    follow: { omega: 14, omegaJitter: 0, zeta: 0.75, zetaJitter: 0, airTau: 0.12, lagSpeed: 1e6, upwindX: 18 },   // every card on the same spring, no lag: no gaps
+    follow: { airTau: 0.12, lagSpeed: 1e6, upwindX: 18 },   // every card rides the row exactly: no gaps, no wobble, it stops when the row stops
     grab: { omega: 18, zeta: 0.7 },
     hover: { damp: 30 },
-    tap: { restitution: 0.35, minImpact: 8 },
-    bank: { degPerCms: 0.45, capDeg: 14, omega: 14, zeta: 0.4, ownRate: 0.5 },
-    yawLag: { degPerSlotS: 1.6, capDeg: 9, omega: 9, zeta: 0.5 },
+    tap: { restitution: 0.1, minImpact: 8 },
+    bank: { degPerCms: 0.45, capDeg: 14, omega: 14, zeta: 0.9, ownRate: 0.5 },
+    yawLag: { degPerSlotS: 1.6, capDeg: 9, omega: 9, zeta: 0.9 },
     flutter: { freq: [3.0, 4.2], flexOmega: 2 * Math.PI * 6, flexZeta: 0.15, gain: 0.5, vRef: 40, flexDrive: 120, rockDrive: 40 },
     reduced: { fadeIn: 0.24, stagger: 0.08 },
   },
